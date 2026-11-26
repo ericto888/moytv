@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.kankux",
+  "name": "看裤X",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "看裤X（kankux.com）。分类与原 py 1:1：站点导航动态解析（不到 50 个合并首页导航、再回退原 py 写死的 75 个分类），屏蔽集 {14, 76} 照搬过滤后按编号排序，home 首位加「全部」共 76 项。HTML 正则解析列表/详情/搜索，详情给全球/亚洲/中国大陆三条加速节点，播放页依次现取 m3u8 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "kankux.com"
+    ],
+    "media": [
+      "picc.sex8sex855.com",
+      "xing.sex8sex833.com",
+      "*.sex8sex855.com",
+      "*.sex8sex833.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/kankux/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-BrCldiWsBl/nwV4qppRKg5pgh6Q4n/QRz6TSz0u78t8="
+    }
+  }
+}

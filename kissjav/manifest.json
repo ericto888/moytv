@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.kissjav",
+  "name": "KissJAV",
+  "version": "1.0.3",
+  "author": {
+    "name": "TG频道号@yydsys"
+  },
+  "description": "【本插件由TG频道〖多多纯净软件分享〗提供，频道号@yydsys】\n\nKissJAV（kissjav.li）：最新更新、最多播放、今日最热、评分最高，另有 Korean Porn / Korean BJ / JAV 无码 / FC2PPV / MyFans / Voyeur 等分类，关键词搜索。取流是站点给的 MP4 直链，播放前会先自己探一次，探不通的线路不交出去。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh",
+    "en",
+    "ja",
+    "ko"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "kissjav.li",
+      "www.kissjav.li",
+      "tubegifs.com",
+      "*.tubegifs.com",
+      "wwww1.tubegifs.com",
+      "cdnhop.com",
+      "*.cdnhop.com",
+      "assets6.cdnhop.com"
+    ],
+    "media": [
+      "kissjav.li",
+      "www.kissjav.li",
+      "tubegifs.com",
+      "*.tubegifs.com",
+      "wwww1.tubegifs.com",
+      "cdnhop.com",
+      "*.cdnhop.com",
+      "assets6.cdnhop.com"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-YC6g0x9P++bosgIet0BsSKldUFhrwK3drXxoBvhInDo="
+    }
+  }
+}

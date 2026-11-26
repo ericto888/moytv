@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.jptt",
+  "name": "JPTT禁片天堂",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "JPTT禁片天堂（jptt.tv）。17 个分类与原 py 完全一致（tid 标签类 + fid 厂牌类），详情页现取 m3u8 直链播放，play 内预解析 master 清单到子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "jptt.tv",
+      "*.jptt1.cc"
+    ],
+    "media": [
+      "jptt.tv",
+      "*.jptt1.cc"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/jptt/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-wypg1P2dVanBQZvYZVYJ5+T/23ui5IlvdBAuVUbVjgs="
+    }
+  }
+}

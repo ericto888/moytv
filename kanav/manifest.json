@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.kanav",
+  "name": "KanAV",
+  "version": "1.0.5",
+  "author": {
+    "name": "TG频道号@yydsys"
+  },
+  "description": "【本插件由TG频道〖多多纯净软件分享〗提供，频道号@yydsys】\n\nKanAV（kanav.ad）：中文字幕、日本无码、国产、自拍流出、探花、主播、动漫里番共 13 个分类，关键词搜索，支持翻页。列表和详情直接读页面，取流把播放页里那层编码解成 m3u8 交给播放器，秒开不中转。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh",
+    "en",
+    "ja",
+    "ko"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "kanav.ad",
+      "www.kanav.ad",
+      "m3.kanav.fun",
+      "11yun.space",
+      "*.11yun.space",
+      "11yun.xyz",
+      "*.11yun.xyz",
+      "r2.11yun.space",
+      "cdn6.11yun.space",
+      "cdn9.11yun.space",
+      "cdn14.11yun.space",
+      "cdn16.11yun.space",
+      "cdn17.11yun.space",
+      "img.11yun.xyz"
+    ],
+    "media": [
+      "kanav.ad",
+      "www.kanav.ad",
+      "m3.kanav.fun",
+      "11yun.space",
+      "*.11yun.space",
+      "11yun.xyz",
+      "*.11yun.xyz",
+      "r2.11yun.space",
+      "cdn6.11yun.space",
+      "cdn9.11yun.space",
+      "cdn14.11yun.space",
+      "cdn16.11yun.space",
+      "cdn17.11yun.space",
+      "img.11yun.xyz"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-x1ypXV2JY+xnCWd5PmOhPnRcCcyp4SHu28clfpomxes="
+    }
+  }
+}
