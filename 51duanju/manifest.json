@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "com.idj.bundled.51duanju",
+  "name": "51短剧",
+  "version": "1.0.10",
+  "author": {
+    "name": "小多"
+  },
+  "description": "51短剧：入口 51dj20.com 跳转线路 aa/ab/ac.dtfjefgfr.cc；详情 /video/{id}/，第2集起 /video/{id}/ep-{n}/。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "51dj20.com",
+      "gtahrkfq.cc",
+      "aa.dtfjefgfr.cc",
+      "ab.dtfjefgfr.cc",
+      "ac.dtfjefgfr.cc",
+      "*.dtfjefgfr.cc",
+      "51djweb.com",
+      "0b781.dtfjefgfr.cc"
+    ],
+    "media": [
+      "*.dtfjefgfr.cc",
+      "pic.mmgbaa.cn",
+      "*.ohjzmm.cn"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-YHpgovWm4HryhbnYcgFi6dQOdeptYKQISQH0RHHSTsk="
+    }
+  }
+}

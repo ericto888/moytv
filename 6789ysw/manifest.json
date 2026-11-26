@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.6789ysw",
+  "name": "6789影视",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "6789影视（www.6789ysw.com）。分类与原 py 1:1 写死 5 个：电视剧(2)、电影(1)、综艺(3)、动漫(4)、短剧(5)。HTML 正则解析列表/详情/搜索，详情按 h3 线路名分组（过滤网盘与合集项，照搬原 py），播放页 player_aaaa 等多路现取 m3u8 直链、主列表预解析到子列表。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": false,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.6789ysw.com",
+      "6789ysw.com"
+    ],
+    "media": [
+      "player.yzzyvip-35.com",
+      "*.yzzyvip-35.com",
+      "vod.ffzy-bofang.com",
+      "*.ffzy-bofang.com",
+      "v4.ppqrrs.com",
+      "*.ppqrrs.com",
+      "pic3.yzzyimg.online",
+      "*.yzzyimg.online",
+      "pic.youkupic.com",
+      "*.youkupic.com",
+      "tupian.ffeiimg.com",
+      "*.ffeiimg.com",
+      "img.bfzypic.com",
+      "*.bfzypic.com",
+      "img.jisuimage.com",
+      "*.jisuimage.com",
+      "inews.gtimg.com",
+      "*.gtimg.com",
+      "p.lztutu.com",
+      "*.lztutu.com",
+      "vod.dyttimage.com",
+      "*.dyttimage.com",
+      "fffgood.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/6789ysw/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-QmhmSg11YqHlIh05KVapo6sPrO1UBvhlljDC/cP+cKY="
+    }
+  }
+}

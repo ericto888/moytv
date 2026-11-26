@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.51xz",
+  "name": "51X",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "51X（51xz.vip）。21 个分类（与原 py 完全一致），Next.js 页面 RSC 流解析视频/短剧/吃瓜帖，hlsUrl 直链播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "51xz.vip"
+    ],
+    "media": [
+      "source.datashubcenter.com",
+      "oprationsrc.datashubcenter.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/51xz/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-aiWYflUVQv9XYAc+BeC8fmo7bwAz4Kr1YVr9CuM9Ccc="
+    }
+  }
+}

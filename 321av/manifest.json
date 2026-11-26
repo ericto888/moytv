@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.321av",
+  "name": "321AV",
+  "version": "1.0.0",
+  "author": {
+    "name": "摸站手写"
+  },
+  "description": "321AV（321av.cc）。有码影片/无码影片/中文字幕/女优，MacCMS。播放走 rmissav 取流（站内接线 /private-getvideo 已 404，本机出口未验通，待手机终验）。摸站手写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "321av.cc",
+      "www.321av.cc",
+      "rmissav.datalicdn.top",
+      "rmissav.centercdn.top"
+    ],
+    "media": [
+      "*.piccdn2.mom",
+      "*.cdnpic1.top",
+      "fourhoi.com",
+      "*.fourhoi.com",
+      "pics.dmm.co.jp",
+      "rjmp1.datalicdn.top",
+      "rmissav.datalicdn.top",
+      "rmissav.centercdn.top"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/321av/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-amt0ETkjQZMU8UiIMxdxzmHk4fj1MDrlLHV/WuQdO6A="
+    }
+  }
+}

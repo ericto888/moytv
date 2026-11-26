@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.bundled.57duanju",
+  "name": "57短剧",
+  "version": "1.0.11",
+  "author": {
+    "name": "小多"
+  },
+  "description": "57短剧：合集 /dramas/{数字}/，单集 /events/{数字}/。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "57duanju.org",
+      "*.57duanju.org",
+      "s.chigua.media",
+      "*.chigua.media"
+    ],
+    "media": [
+      "s.chigua.media",
+      "*.57duanju.org",
+      "*.megafile.media"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-c+mjRNo7un7qj/gI51OycGAtf6NWTzoGlI402FGdbfA="
+    }
+  }
+}
