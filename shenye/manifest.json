@@ -39,5 +39,8 @@
     "files": {
       "main.js": "sha256-89WJeFC8b4dZhumj29cnlZ5eF1zjvdchKJ96wrGbDKI="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/shenye/manifest.json"
   }
 }
