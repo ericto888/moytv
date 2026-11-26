@@ -54,5 +54,8 @@
     "files": {
       "main.js": "sha256-7IqaZ4GeKm0U1Yj4b/L8twdT8W9vdEQhUHt6SDYfJ4I="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/supjav/manifest.json"
   }
 }
