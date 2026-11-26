@@ -47,5 +47,8 @@
     "files": {
       "main.js": "sha256-jnqAOgmcXS70l/+g5/umQsPEu4UHz69NSstPMuMdAp0="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/jinguoduanju/manifest.json"
   }
 }
