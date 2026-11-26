@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hduanju",
+  "name": "H-短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "H-短剧（xiaonverjtx.click）。分类按原 py 从首页导航解析、取不到时回退原 py 的 39 个固定分类（不删减，原 py 无分类过滤），服务端渲染 HTML 列表/搜索，详情单线路「在线播放」单集结构照原 py；播放页 var playUrl 现取 m3u8，主清单在 play 内预解析。站方 /info/ 详情页现全量回 nginx 404，详情标题改由同 id 的 /play/ 页 pagetitle 兜底（封面/简介/分类名只在 /info/ 页有、兜底时为空，列表封面不受影响）。封面与流媒体域名为站方轮换域名，已按实测域名与通配形态登记。由内置 py 蜘蛛改写。",
+  "type": "shortdrama",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "xiaonverjtx.click"
+    ],
+    "media": [
+      "xiaonverjtx.click",
+      "*.v155p.com",
+      "155p261028.com",
+      "*.shayu260522.top",
+      "*.sl260630.top"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hduanju/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-WM57yR2FOM48VHLlCZN2oDl/xfJWjKMefGgaO7wg0g0="
+    }
+  }
+}

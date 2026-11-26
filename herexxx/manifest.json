@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.herexxx",
+  "name": "HereXXX",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "HereXXX（herexxx.com）。17 个分类，HTML 解析列表/详情，详情页 flashvars base64 现解站内 mp4 直链（经 302 到 CDN）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "herexxx.com"
+    ],
+    "media": [
+      "herexxx.com",
+      "*.cdnhop.com",
+      "*.tubegifs.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/herexxx/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-2utooNEiCVeTF37mLfTkcJ22eoGmZ1sCQ2uL1+37FLk="
+    }
+  }
+}

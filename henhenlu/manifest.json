@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.henhenlu",
+  "name": "狠狠撸",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "狠狠撸（hhlu2127.lol）。3 个分类（视频一区/二区/三区），HTML 解析列表/详情，播放页现取 m3u8 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "hhlu2127.lol",
+      "fqm3u8.cc",
+      "fqts5.top",
+      "fqjpg12.top",
+      "fqjpg11.top"
+    ],
+    "media": [
+      "hhlu2127.lol",
+      "fqm3u8.cc",
+      "fqts5.top",
+      "fqjpg12.top",
+      "fqjpg11.top"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/henhenlu/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-TrNxMue5Sp3pLeWvrddficRnr0vU18dOP6kwIF4EBwY="
+    }
+  }
+}
