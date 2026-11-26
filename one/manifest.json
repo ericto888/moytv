@@ -98,5 +98,8 @@
     "files": {
       "main.js": "sha256-yk0Bs5Ni6KOljmO66BZf/TnqXO+ruux1tx/S4tu5pHc="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/one/manifest.json"
   }
 }
