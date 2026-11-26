@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "id": "com.idj.bundled.one",
+  "name": "ONE一个",
+  "version": "1.0.0",
+  "author": {
+    "name": "小多"
+  },
+  "description": "ONE一个：成人影片库；接口 POST /v2.5/bootstrap 取 token，列表按月聚合 discovery，详情 article/detail，播放 video_download 的 MP4 直链（多线路，H.265）。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "api.2b37894.com",
+      "api.35a46dd.com",
+      "api.43b8477.com",
+      "api.5ce3771.com",
+      "api.61c76a0.com",
+      "api.632d809.com",
+      "api.3459381.com",
+      "api.em1oifd0.com",
+      "api.j7y675.com",
+      "917api.fexsqz.com",
+      "917api.b675211.com",
+      "hu62zc10a3p0i.7z8gt8pp.com",
+      "62vawc10a3p0i.uq5qvx4w.com",
+      "917api.deyhhc3.com",
+      "917api.ecmxb7e.com",
+      "917api.5ebd5d.com",
+      "917api.4c86d03.com",
+      "917api.26bb4xt.com",
+      "0325api.santiyu.com",
+      "*.fexsqz.com",
+      "*.b675211.com",
+      "*.7z8gt8pp.com",
+      "*.uq5qvx4w.com",
+      "*.deyhhc3.com",
+      "*.ecmxb7e.com",
+      "*.5ebd5d.com",
+      "*.4c86d03.com",
+      "*.26bb4xt.com",
+      "*.santiyu.com"
+    ],
+    "media": [
+      "46e9nz.mfpt8g.com",
+      "f86xxm.upmf83.com",
+      "bcem5f.scycjz.com",
+      "b9xew3.fwn9vj.com",
+      "pu63rg.upmf83.com",
+      "*.mfpt8g.com",
+      "*.upmf83.com",
+      "*.scycjz.com",
+      "*.fwn9vj.com",
+      "*.gdliren123.com",
+      "*.fuyonglin.com",
+      "imgpw807.s7n7ue8.com",
+      "imgpw807.2u7qzt7.com",
+      "*.s7n7ue8.com",
+      "*.2u7qzt7.com",
+      "img807.hkq57tt.com",
+      "imgsu807.hkq57tt.com",
+      "*.hkq57tt.com",
+      "enimg0203.u3wwetf.com",
+      "enimg807.m6qzbb4.com",
+      "*.u3wwetf.com",
+      "*.m6qzbb4.com",
+      "*.bdsy56.com",
+      "*.gzjsqx.com",
+      "*.k8b3rsp.com",
+      "vd.qmq85ps.com",
+      "vd.47d1fc4.com",
+      "ftdlmk.t556wzr.com",
+      "pwavddl.t556wzr.com",
+      "pwavd123.phd3wfh.com",
+      "*.qmq85ps.com",
+      "*.47d1fc4.com",
+      "*.t556wzr.com",
+      "*.phd3wfh.com",
+      "wsrv.nl"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-yk0Bs5Ni6KOljmO66BZf/TnqXO+ruux1tx/S4tu5pHc="
+    }
+  }
+}

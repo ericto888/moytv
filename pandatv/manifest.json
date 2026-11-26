@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.pandatv",
+  "name": "PANDATV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "PANDATV（pandatv1346.lol）。MacCMS 服务端渲染站：分类照原 py 逻辑抓首页导航（剔除「+更多」、去重，无可用项时用原 py 兜底三类 国产/高清无码/中文字幕，不删减），列表卡片、详情（播放页 player_aaaa 取标题/分类/直链）、搜索（POST wd=）均与原 py 一致；单线路「在线播放」单集，播放直链在 play 内预解析主清单到子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "pandatv1346.lol",
+      "poqmqwkqld.com",
+      "juskksj.com",
+      "dkdiasj.com",
+      "szjhqakmq.com",
+      "xyzyts.com"
+    ],
+    "media": [
+      "pandatv1346.lol",
+      "poqmqwkqld.com",
+      "juskksj.com",
+      "dkdiasj.com",
+      "szjhqakmq.com",
+      "xyzyts.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/pandatv/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-I877sxSJbZnNfOqPNPNA7EQkZr1qIeNRfDSbJ8GeIDc="
+    }
+  }
+}

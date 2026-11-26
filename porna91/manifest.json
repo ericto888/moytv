@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.porna91",
+  "name": "91porna",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "91porna（91porna.com）。9 个分类与原 py 蜘蛛一致，播放走站点 playback 接口现取签名 HLS。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "91porna.com",
+      "pic.qnlycc.cn",
+      "*.tjyyjk.cn"
+    ],
+    "media": [
+      "91porna.com",
+      "pic.qnlycc.cn",
+      "*.tjyyjk.cn"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/porna91/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-de+AArDlvWHBrZu7Gz9rDqDOmRD/zdckTvESf47UOOQ="
+    }
+  }
+}

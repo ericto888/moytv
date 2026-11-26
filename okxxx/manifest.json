@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.okxxx",
+  "name": "OKXXX",
+  "version": "1.0.0",
+  "author": {
+    "name": "摸站手写"
+  },
+  "description": "OKXXX（ok.xxx，KVS 站）。最新/热门/趋势 3 个列表；详情页 <source> 取最高画质，get_file 地址实测回 m3u8 主清单（format 标 hls）。摸站手写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "ok.xxx"
+    ],
+    "media": [
+      "ok.xxx",
+      "static.ok.xxx",
+      "*.cdn.privatehost.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/okxxx/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-6G6FaduTZ5mbrz2JzsOZ5eaCAvzaoxNf0tf8Q1EuFGI="
+    }
+  }
+}
