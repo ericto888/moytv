@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.javzw",
+  "name": "Jav中文",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "Jav中文（javzw.cyou）。分类由站点接口实时返回（仅 video 模块，与原 py 一致），列表/详情/搜索走 AES 加密 JSON 接口，播放为详情现取的 HLS 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "*.javzw.cyou"
+    ],
+    "media": [
+      "98jpg1.vip",
+      "98jpm3u8.vip",
+      "98cdn.vip"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/javzw/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-d8UUmW4nFW7GWYqgOFb5x+HeIVjb4a4fHna+51MwOGs="
+    }
+  }
+}

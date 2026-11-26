@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.javtiful",
+  "name": "JavTiful",
+  "version": "1.7.3",
+  "author": {
+    "name": "TG频道号@yydsys"
+  },
+  "description": "【本插件由TG频道〖多多纯净软件分享〗提供，频道号@yydsys】\n\nJavTiful 日本向全站。推荐位、最新、本周/本月热门、有码、无码、去马赛克；关键词搜索；取流走播放票据换取签名 MP4 直链。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh",
+    "ja",
+    "en"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "javtiful.com",
+      "www.javtiful.com",
+      "8d5fff6dafa213ef6b9210db39c5f56e.r2.cloudflarestorage.com",
+      "*.r2.cloudflarestorage.com",
+      "*.cloudflarestorage.com"
+    ],
+    "media": [
+      "javtiful.com",
+      "*.javtiful.com",
+      "*.r2.cloudflarestorage.com",
+      "*.cloudflarestorage.com",
+      "*.akamaized.net",
+      "*.cloudfront.net",
+      "*.fastly.net",
+      "*.b-cdn.net",
+      "*.bunnycdn.com",
+      "*.cdn77.org",
+      "8d5fff6dafa213ef6b9210db39c5f56e.r2.cloudflarestorage.com",
+      "cloudflarestorage.com"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-9KFMv+W5uEWXzDagj/rCgbWMfog6soZKPDP/OQBac4s="
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.jin18",
+  "name": "18禁乐园",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "18禁乐园（18jin1109.lol）。分类与站导航 1:1（首页实时解析、原 py 15 分类兜底），MacCMS 详情页取播放页 player_aaaa 地址直连 HLS，play 内预解析主清单到子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "18jin1109.lol",
+      "2609.dadi2026.com",
+      "ki.dadi260522.top"
+    ],
+    "media": [
+      "18jin1109.lol",
+      "2609.dadi2026.com",
+      "ki.dadi260522.top"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/jin18/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-+iIKmnYJrPtfQJL5RbI91IcwKGeywo5rLZ67j+0R+1Q="
+    }
+  }
+}

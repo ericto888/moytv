@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.javsiri",
+  "name": "JAVSiri",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "JAVSiri（javsiri.cc）。7 个分类与原 py 蜘蛛 CATS 1:1 对应，列表走站内 HTML 卡片解析，详情页 flashvar 现取 video_url（get_file mp4），play 把详情响应下发的 kt_acctoken 饼干随流 headers 交给播放器、经 302 落 cloud CDN 播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "javsiri.cc",
+      "cloud.javsiri.cc"
+    ],
+    "media": [
+      "javsiri.cc",
+      "cloud.javsiri.cc"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/javsiri/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-puyc80hXDz0yNlDNE8el9d7ByhsuFQECBOV7w9H0cMk="
+    }
+  }
+}

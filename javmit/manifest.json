@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.javmit",
+  "name": "JAVMIT",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "JAVMIT（javmit.com，WordPress 站）。95 个分类与原 py CATS 完全一致、不删减（原 py 无旗标过滤、无成人游戏/赌博分类）。列表为 v-card 卡片（标题/封面/时长），详情页 og:video 给出 s*.javmit.com 的 master.m3u8，play 内预解析到首条子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "javmit.com",
+      "*.javmit.com"
+    ],
+    "media": [
+      "javmit.com",
+      "*.javmit.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/javmit/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-QTqaCrfKGpI7+fuu8pfQnniAbQLfpV6wcJ1CsSFFC3U="
+    }
+  }
+}
