@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.sc123jf",
+  "name": "老牛影视",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "老牛影视（www.sc123jf.com）。分类与原 py 1:1：写死的 23 个分类（电影/电视剧/动漫/综艺/各类型片/各地区剧/短剧），原 py 无旗标过滤。HTML 正则解析列表/详情/搜索，播放页现取 m3u8/mp4 直链，详情 8 条线路各有独立 CDN。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": false,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.sc123jf.com"
+    ],
+    "media": [
+      "cdn.yddsha2.com",
+      "v.lzv41.com",
+      "player.yzzy37-play.vip",
+      "vod.ffzy-plays50.com",
+      "play.xluuss.com",
+      "hd.kuktxu.com",
+      "v.gsuus.com",
+      "hn.bfvvs.com",
+      "hnts.ymuuy.com",
+      "*.ymuuy.com",
+      "img.jlsdssfa.com",
+      "image.jinyingimage.com",
+      "pic3.yzzyimg.online",
+      "yqk.j3kjn242sq.com",
+      "shandianpic.vip",
+      "xl.xltupian.com",
+      "p.lzp261118.com",
+      "pic.wujintupian.com",
+      "pic.feifeixiang.com",
+      "p.bfp261112.com",
+      "pic.youkupic.com",
+      "p.lztutu.com",
+      "p.bfvp26.com",
+      "img.jisuimage.com",
+      "img.guangsuimage.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/sc123jf/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-t95I2ExRNiThBTLrllnxdGSyczMQ8e/+tyyg2p07nB0="
+    }
+  }
+}

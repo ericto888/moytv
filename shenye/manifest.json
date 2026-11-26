@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "com.idj.bundled.shenye",
+  "name": "深夜短剧",
+  "version": "1.0.10",
+  "author": {
+    "name": "小多"
+  },
+  "description": "深夜短剧：详情 /detail/{id}/，集数 /play/{id}-1-{集数}/。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "licefor.aisydj.cc",
+      "*.aisydj.cc",
+      "media.hgpicimg.cc"
+    ],
+    "media": [
+      "media.hgpicimg.cc",
+      "*.aisydj.cc"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-89WJeFC8b4dZhumj29cnlZ5eF1zjvdchKJ96wrGbDKI="
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.shunvqu",
+  "name": "熟女群",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "熟女群（snq2.cc/snq3.cc）。7 个资源分类（与原 py 完全一致），MacCMS 列表/详情解析，player_aaaa 取 m3u8 直链播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "wap.snq2.cc",
+      "wap.snq3.cc",
+      "5g.snq3.cc",
+      "hg.jqydt1.com",
+      "98jpm3u8.vip",
+      "98cdn.vip"
+    ],
+    "media": [
+      "hg.jqydt1.com",
+      "98jpm3u8.vip",
+      "98cdn.vip"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/shunvqu/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-1lcuQCax5iqn+JHZF4x9x7aAj36AqOT0kkSVm7g4KOc="
+    }
+  }
+}
