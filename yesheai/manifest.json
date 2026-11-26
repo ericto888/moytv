@@ -145,5 +145,8 @@
     "files": {
       "main.js": "sha256-cYCX7LQnVKgLxK908E1oQYrMBIWMsKpexPkgV2uA/e0="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/yesheai/manifest.json"
   }
 }

@@ -41,5 +41,8 @@
     "files": {
       "main.js": "sha256-TTjMJNmFMjAs8xQVEoYR+f18gVPKMead16T52toq2GQ="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/xvideos/manifest.json"
   }
 }

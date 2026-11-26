@@ -56,5 +56,8 @@
     "files": {
       "main.js": "sha256-PkxToyGzF+DUPi3mYWpT/KcO9YS9brlPt98nCWB1BO0="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/yeguo/manifest.json"
   }
 }
