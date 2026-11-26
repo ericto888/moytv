@@ -40,5 +40,8 @@
     "files": {
       "main.js": "sha256-8pWdGIbSjmeByRyayP0VGAjInjdv/DxjdD94ooXkWhw="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/licefor/manifest.json"
   }
 }

@@ -48,5 +48,8 @@
     "files": {
       "main.js": "sha256-d7uieQrMeaS+EH+82KxT71uE+93s8+32NvHCmomNbPM="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/madou/manifest.json"
   }
 }

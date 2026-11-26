@@ -49,5 +49,8 @@
     "files": {
       "main.js": "sha256-DOk7LTVd7fAEP+HLSLiBnOSY16/sENRwoQG7hBHLj3I="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/missav/manifest.json"
   }
 }
