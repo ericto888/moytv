@@ -52,5 +52,8 @@
     "files": {
       "main.js": "sha256-oN1+M3UaczJv5YBCgZO3nrt7+wDtvWrp8KgVkmrI964="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/jable/manifest.json"
   }
 }
