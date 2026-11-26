@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.madou",
+  "name": "麻豆社",
+  "version": "1.0.10",
+  "author": {
+    "name": "@yydsys"
+  },
+  "description": "麻豆社国产传媒聚合。麻豆传媒/番外篇/导演系列、天美、星空无限、精东、果冻、蜜桃、皇家华人、大象、兔子先生、91制片厂、猫爪、PsychoPornTW；关键词搜索；取出 HLS 直链。更多片源与插件更新见 TG 频道〖多多纯净软件分享〗@yydsys。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "madou.club",
+      "www.madou.club",
+      "dash.madou.club",
+      "idjrelay.web.zaka.live"
+    ],
+    "media": [
+      "idjrelay.web.zaka.live",
+      "madou.club",
+      "*.madou.club",
+      "*.akamaized.net",
+      "*.cloudfront.net",
+      "*.fastly.net",
+      "*.b-cdn.net",
+      "*.bunnycdn.com",
+      "*.cdn77.org"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-d7uieQrMeaS+EH+82KxT71uE+93s8+32NvHCmomNbPM="
+    }
+  }
+}

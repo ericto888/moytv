@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.memojav",
+  "name": "MemoJav",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "MemoJav（memojav.org）。与原 py 一致的 8 个分类（New Videos/Best Videos/Actress/Studio/Series/Categories/Label/Director），HTML 解析列表与索引下钻，详情页取演员/片商/导演/年份/标签/剧照，播放走 get_video_info 签名接口现取 m3u8 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "memojav.org",
+      "*.memojav.net"
+    ],
+    "media": [
+      "memojav.org",
+      "*.memojav.net",
+      "pics.dmm.co.jp"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/memojav/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-q1Kd1FyGObSDUDVCYwToBXRIdq8y1uTqqCIVpvdV5tA="
+    }
+  }
+}
