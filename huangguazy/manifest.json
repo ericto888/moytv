@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.huangguazy",
+  "name": "黄瓜资源",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "黄瓜资源（wap.huangguazy7.cc，镜像 gua.huangguazy8.cc）。7 个分类与站导航 1:1（黄瓜/番号/不卡/玉兔/裤子/森林/163 资源），网页解析取 player_aaaa 的 m3u8 播放，master 清单在 play 内预解析。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "wap.huangguazy7.cc",
+      "gua.huangguazy8.cc"
+    ],
+    "media": [
+      "wap.huangguazy7.cc",
+      "gua.huangguazy8.cc",
+      "hg.jqydt1.com",
+      "98jpm3u8.vip",
+      "98cdn.vip"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/huangguazy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-6hM+0usuMKsPOaSq6La0CVxQBt7VQiYsPfek8OuVdXc="
+    }
+  }
+}

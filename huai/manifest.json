@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.huai",
+  "name": "欢爱",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "欢爱。17 个分类与站导航一致，接口自动注册取令牌，列表/详情/搜索走站点 JSON 接口；播放先验试看，短预告时按原 py 流程领邀请奖励购片解锁完整版。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "sjgyoptiq.hjfwoz.com",
+      "soost.hnxyjws.com"
+    ],
+    "media": [
+      "sjgyoptiq.hjfwoz.com",
+      "soost.hnxyjws.com"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/huai/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-gkyrNnRu1z8C/NOnx/wbiB0b2Q4f6o/ZrXhKwQSFmSc="
+    }
+  }
+}

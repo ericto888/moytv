@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.huangju",
+  "name": "剧果",
+  "version": "1.0.5",
+  "author": {
+    "name": "@yydsys"
+  },
+  "description": "剧果（huangju.net）：最新 / 热门 / 成人 / 都市 / 青春等分类，关键词搜索。修复播放报「网络连接失败」：每次播放重新取签名、中转发布后回读校验并自动切备用通道、播放前实测片源分片连通性，连不上给出明确提示。更多片源与插件更新见 TG 频道〖多多纯净软件分享〗@yydsys。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "huangju.net",
+      "www.huangju.net",
+      "api.huangju.net",
+      "*.huangju.net",
+      "jgplay-m7q2.web.zaka.live",
+      "paste.rs"
+    ],
+    "media": [
+      "video.huangju.net",
+      "*.huangju.net",
+      "jgplay-m7q2.web.zaka.live",
+      "paste.rs"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-t8te5pT4iXQnhjhO4W7iHoEGfARiXMnIksc+3ZLt+Y8="
+    }
+  }
+}

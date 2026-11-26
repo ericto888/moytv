@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.huangguomanju",
+  "name": "黄果漫剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "黄果漫剧（接口站，设备令牌鉴权）。2 个分类：成人漫剧、黑网红料；漫剧多集连载，免费集可播、VIP 集在集名标 ·VIP。播放为 AES-128 加密 HLS（密钥由播放器按清单地址自取）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "hgxml.00api-agy5u.com",
+      "rules.googlexml.com",
+      "awsapi.ipa001-7hzktt.com",
+      "*.htsiot.com",
+      "haguapi.huangguo.top",
+      "google.huge1-7wnjsk.com"
+    ],
+    "media": [
+      "*.htsiot.com",
+      "haguapi.aihguor20101.com",
+      "haguapi.huangguo.top"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/huangguomanju/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-db1w4jEHA5cMXI9J4wAMPhEAxxg2PJq1G4yRid9UQTg="
+    }
+  }
+}

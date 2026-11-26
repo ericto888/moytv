@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.huangsecangku",
+  "name": "黄色仓库",
+  "version": "1.0.0",
+  "author": {
+    "name": "CatVod 蜘蛛改写"
+  },
+  "description": "黄色仓库（hsck01.net，MacCMS）。5 个分类，列表直链播放页，播放走 player.centercdn.top 嵌的真 m3u8。搜索未在线验通，待手机终验。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.hsck01.net",
+      "hsck.la",
+      "17188.cc",
+      "69ck1.com",
+      "69ck1.net",
+      "69ck.ws",
+      "69ck.one",
+      "hsck.nl",
+      "hsck.sbs"
+    ],
+    "media": [
+      "*.vcwinford.cc",
+      "23.225.11.173",
+      "t0.97img.com",
+      "*.97img.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/huangsecangku/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-DGM2gF+sPn8uJ/YpASVw2GqPPoG8bDkBDHYm9PCS6Gk="
+    }
+  }
+}

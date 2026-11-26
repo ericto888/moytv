@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "com.idj.bundled.huangguaduanju",
+  "name": "黄瓜短剧",
+  "version": "1.0.5",
+  "author": {
+    "name": "小多"
+  },
+  "description": "黄瓜短剧：黄果平台 AI 短剧；接口 POST /api/v1/home、/api/v1/channels/{频道}?page={n}、/api/v1/search、/api/v1/dramas/{slug}、/api/v1/dramas/{slug}/episodes/{n}（AES-128-CBC 加密请求/响应，MD5(SHA256) 签名）；播放取 media.source_url 的 m3u8（hls.ohjzmm.cn，分片/key 在 tx.doudou520.online、ts.zhixunkeji.xyz、mts.hhjd.mobi 三家轮换，无 Referer 门禁，带 auth_key 时间戳；streams 带播放页 Referer，照 51 同款做法；v1.0.3：play() 参数解析兼容 id/episodeId 两种顺序）。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "api-hgdju.zvdumduz.cc"
+    ],
+    "media": [
+      "*.ohjzmm.cn",
+      "*.doudou520.online",
+      "*.zhixunkeji.xyz",
+      "*.hhjd.mobi",
+      "pic.mmgbaa.cn"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-OQYYaiVGZZRZE8wJ8peOkpUI8EyoTeBZsHe8ReJUVvQ="
+    }
+  }
+}
