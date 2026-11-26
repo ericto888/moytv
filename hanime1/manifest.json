@@ -45,5 +45,8 @@
     "files": {
       "main.js": "sha256-zwNECgDD295wkhSWpEca0LuaV8INMb+R6k7MJ7fpAnk="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hanime1/manifest.json"
   }
 }
