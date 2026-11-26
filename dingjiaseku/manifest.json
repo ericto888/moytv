@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.dingjiaseku",
+  "name": "顶级AI色库",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "顶级AI色库（yxql-imh-nh4d.taoquan26s111.cc）。4 个分类，MacCMS 整站 HTML 解析，播放页现取 m3u8 直链播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "yxql-imh-nh4d.taoquan26s111.cc"
+    ],
+    "media": [
+      "lsbbf12.com",
+      "sbzytpimg12.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/dingjiaseku/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-8i4qyA1hevvJ6dapmxd7hJR5XT39xYNHki1ZzEp/7B0="
+    }
+  }
+}
