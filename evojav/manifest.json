@@ -83,5 +83,8 @@
     "files": {
       "main.js": "sha256-h947MAWvvrZRJL3wsIIEMnoaCoCC113XL+ECyv9d4lY="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/evojav/manifest.json"
   }
 }

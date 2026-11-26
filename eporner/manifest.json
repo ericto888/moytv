@@ -40,5 +40,8 @@
     "files": {
       "main.js": "sha256-gvXwptdAH5FcQ65kWQth7XJu2eCkMtpySHoMl34E+ys="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/eporner/manifest.json"
   }
 }

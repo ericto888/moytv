@@ -830,5 +830,8 @@
     "files": {
       "main.js": "sha256-uUM5OQr/PGxpVbp+omToA8Wlp1UO86kyvL7mgxUFYuU="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/duanjuhe/manifest.json"
   }
 }
