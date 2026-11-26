@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hgdj58",
+  "name": "黄果短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "黄果短剧（hgdj58）。分类与原 py 完全一致：/categories 接口返回的 4 个分类（黄果原创🔥/AI成人短剧/AI成人漫剧/AI魔改）前置固定「推荐」，不删减；JSON 接口取列表/详情/搜索，剧集结构照原 py（预告/正片命名、锁定集标注 VIP/金币、单线路「在线播放」）；封面走原 py 的描述符解析（cover 路径换 routes 真实地址，多线路试探取可达的一条）；play 走原 py 的 POST /episodes/{id}/play 接口，media_routes 相对地址按响应镜像补绝对，多线路（源站/R2/第三方 CDN）逐条验清单+首分片取首条验通者。锁定集（含标 free 的锁定集）无游客令牌时接口不给流，游客登录接口现回 426（站方 2026-11-25 升级后原 py 契约失效），未锁预告集可正常播。由内置 py 蜘蛛改写。",
+  "type": "shortdrama",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "a2.hgdjap2.com",
+      "a3.hgdjap3.com",
+      "a4.hgdjap4.com",
+      "a5.hgdjap5.com",
+      "a6.hgdjap6.com",
+      "img.hgspr226103.com",
+      "sp.hgdjimg26103.com",
+      "*.syhlst.com",
+      "xn---176198876-wj2q194rql3bfw9g.hgdjh58.com"
+    ],
+    "media": [
+      "a2.hgdjap2.com",
+      "a3.hgdjap3.com",
+      "a4.hgdjap4.com",
+      "a5.hgdjap5.com",
+      "a6.hgdjap6.com",
+      "img.hgspr226103.com",
+      "sp.hgdjimg26103.com",
+      "*.syhlst.com",
+      "api.hgaz2697.com"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hgdj58/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-qfod8+3dcEoWu5TCEU8xuSDM/tEkzLw8q2EYQDqN06s="
+    }
+  }
+}

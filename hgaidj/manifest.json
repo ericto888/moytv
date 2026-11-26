@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hgaidj",
+  "name": "黄果AI短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "黄果AI短剧（hgaidjzun.lol）。分类按原 py 从首页 hunt 链接解析（解析不到时用原 py 的 12 个固定分类兜底，不删减），服务端渲染 HTML 列表/详情/搜索；详情页取标题/封面/简介，播放页取 playUrl 单线路「在线播放」单集结构与原 py 一致；主清单在 play 内预解析到子清单。流与封面均为多 CDN 轮换域名，清单按实测根域以 *. 形态覆盖。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "hgaidjzun.lol",
+      "*.heicdn.com",
+      "*.bbffsl.com",
+      "*.slbfsl.com",
+      "*.slslbf.com",
+      "*.lbbf9.com"
+    ],
+    "media": [
+      "*.heicdn.com",
+      "*.bbffsl.com",
+      "*.slbfsl.com",
+      "*.slslbf.com",
+      "*.lbbf9.com",
+      "*.heiimg.com",
+      "*.lale25725.com",
+      "ckbhjpg1.top",
+      "*.sl260204.top",
+      "*.slpicsl.com",
+      "*.lbtup2025.com",
+      "*.sl2025p.com",
+      "*.slsltutu.com",
+      "*.sltututu.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hgaidj/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-UMY8dpv784TYaP8i0LE+s1d9v2jGrYu30BQ1WEPm1Lg="
+    }
+  }
+}

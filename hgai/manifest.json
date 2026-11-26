@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hgai",
+  "name": "黄瓜AI短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "黄瓜AI短剧（hgai8.cc）。入口页解析随机子域名基址（*.cyou 后缀），数据走 /api JSON 接口（响应可为 AES-CBC cipher 包裹，插件内用原 py 同一 key/iv 解密）；分类以接口 module=video 全量为准（实测 40 个，不删减），接口无数据时回退原 py 内置 30 分类；详情剧集照原 py 由 play_url 按 # 切分、单线路「在线播放」；播放照原 py 链：.m3u8 直通、播放页直链正则、player_data huangguo 接口三路，主清单在 play 内预解析。由内置 py 蜘蛛改写。",
+  "type": "shortdrama",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "hgai8.cc",
+      "hgai8.cyou",
+      "*.hgai8.cyou"
+    ],
+    "media": [
+      "98jpg1.vip",
+      "98jpm3u8.vip",
+      "98cdn.vip",
+      "hgai8.cyou",
+      "*.hgai8.cyou"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hgai/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-nTwDsTGsTPpMT5grP6hv4LPDrroARDGZdFZPbSxeq7I="
+    }
+  }
+}

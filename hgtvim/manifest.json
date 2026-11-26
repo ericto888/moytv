@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hgtvim",
+  "name": "黄果短剧HGTV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "黄果短剧HGTV（hgtv.im）。14 个固定分类与原 py 完全一致（首页/经典魔改/家庭伦理/都市爱情/特殊趣味/校园记忆/古装玄幻/现代惊悚/域外传奇/经典动漫/AI演示/特殊口味/异能穿越/二次元区，不删减），服务端渲染 HTML 列表/详情/搜索；详情照原 py 取 JSON-LD 字段与 /watch/ 选集、单线路「在线播放」；播放照原 py 链：/watch 页 data-src（默认 /play/{sid}_{ep}.html）取播放地址，播放端点回内联主清单时在 play 内预解析到子清单。播放端点须带会话 cookie（原 py 靠 cookie 罐），插件侧由宿主按插件隔离的自动 cookie 罐承接。由内置 py 蜘蛛改写。",
+  "type": "shortdrama",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "hgtv.im"
+    ],
+    "media": [
+      "hgtv.im",
+      "img.mfantasy.net",
+      "img.689.mx"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hgtvim/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-wI9VBB6dTs8HsnJ0GVMtTwUYMeMeupSY4aoYoDzO5pQ="
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hghub",
+  "name": "HGhub",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "HGhub（huangguoai.com，黄果）。5 个分类与原 py 完全一致（AI成人短剧/AI成人漫剧/AI换脸/AI魔改/黄果吃瓜）。列表/详情/搜索走明文 JSON 接口；播放走站点加密播放会话（ECDH P-256 + HKDF-SHA256 + AES-256-GCM，dx150-edge-v1），已在插件内纯 JS 复刻原 py 实现，明文 /play 回退接口现回空地址。封面图床 pic.qnlycc.cn 回的是 AES-128-CBC 加密字节（已用原 py 的 key/iv 本地解密验真为真 JPEG），原 py 靠本地代理解密回图；插件宿主只有文本 http、无二进制取图能力，封面只能直出原链、客户端可能无法显示，此为宿主能力边界。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "huangguoai.com",
+      "pic.qnlycc.cn",
+      "*.qnlycc.cn",
+      "yd-lphu-hls.tjyyjk.cn",
+      "*.tjyyjk.cn"
+    ],
+    "media": [
+      "pic.qnlycc.cn",
+      "*.qnlycc.cn",
+      "yd-lphu-hls.tjyyjk.cn",
+      "*.tjyyjk.cn"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hghub/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-Mmg5hmy2r6sUTewNmctKDRF56im/1WUiIfEwS9hoRFA="
+    }
+  }
+}

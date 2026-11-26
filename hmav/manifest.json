@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hmav",
+  "name": "河马AV",
+  "version": "1.0.1",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "河马AV（5.hmav8451.cc:8888 等现行镜像域名，原 7911 系已跳转发布页，插件带发布页自愈探活）。17 个分类与站点导航 1:1，播放为详情页现取 m3u8 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "5.hmav8451.cc",
+      "5.hmav8452.cc",
+      "5.hmav8453.cc",
+      "5.hmav7911.cc",
+      "5.hmav7912.cc",
+      "5.hmav7913.cc",
+      "5.hmav8328.cc",
+      "5.hmav8329.cc",
+      "5.hmav8330.cc"
+    ],
+    "media": [
+      "res-hlg0505.wtycms.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hmav/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-iIslo8TNNoCBruiahliBaYNsm4ocfi6aHiuvqAiYqqY="
+    }
+  }
+}
