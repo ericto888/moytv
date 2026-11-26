@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.dage",
+  "name": "大哥视频",
+  "version": "1.0.0",
+  "author": {
+    "name": "CatVod 蜘蛛改写"
+  },
+  "description": "大哥视频（dage.one，Vue 单页 + /api 接口，信封反转+base64 解码）。32 个视频分类，播放走接口 play 字段的真 m3u8。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "dage.one",
+      "dage01.net"
+    ],
+    "media": [
+      "*.dycp444.com",
+      "*.sgvafw.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/dage/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-mCIrzTjMX5yh/ZStyIeTP/hpY+B5jyxjWXjSvLqEkjc="
+    }
+  }
+}

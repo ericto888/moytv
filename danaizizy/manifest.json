@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.danaizizy",
+  "name": "大奶子资源",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "大奶子资源（apidanaizi.com）。MacCMS 资源接口站（JSON 主、XML 备），分类由接口动态给出（36 个，与原 py 兜底表一致；同一套旗标过滤：游戏/棋牌/博彩/彩票/赌类分类剔除），列表/详情/搜索走 ac=list/detail 接口，列表无封面靠 detail 批量补，播放为 vod_play_url 直链 m3u8。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "apidanaizi.com"
+    ],
+    "media": [
+      "apidanaizi.com",
+      "imgdanaizi14-sss.com",
+      "voddadaizi7.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/danaizizy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-wzejMKITMo5qH1N/BJB2e3fFo/3P7Gb69lX1hYsQ6Ek="
+    }
+  }
+}

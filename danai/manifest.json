@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.danai",
+  "name": "大奶Ai短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "大奶Ai短剧（danai88.cc，接口走 danai88.cyou 随机子域名）。分类 21 个（接口实时取，兜底 36 个），播放为 play_url 里的 m3u8 直链（HLS）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "danai88.cc",
+      "danai88.cyou"
+    ],
+    "media": [
+      "98jpg1.vip",
+      "98jpm3u8.vip",
+      "98cdn.vip"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/danai/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-nXZ6GlsReNhjlRNN8gyHYB1oNA9i+wgiYrUbXZSwZdw="
+    }
+  }
+}

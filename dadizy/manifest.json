@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.dadizy",
+  "name": "大地资源",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "大地资源（dadiapi.com）。MacCMS 资源接口站（JSON 主、XML 备），分类由接口动态给出（29 个，与原 py 同一套旗标过滤：游戏/棋牌/博彩/彩票/赌类分类剔除），列表/详情/搜索走 ac=list/detail 接口，播放为 vod_play_url 直链 m3u8。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "dadiapi.com"
+    ],
+    "media": [
+      "dadiapi.com",
+      "*.dadi260522.top",
+      "*.dadi2026.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/dadizy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-ZfuUuF4muL5E/Ol3SUIqgYZux+uNuyjAwJf7mzmwA0A="
+    }
+  }
+}
