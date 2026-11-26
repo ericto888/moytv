@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.huangguo",
+  "name": "黄果短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "摸站手写"
+  },
+  "description": "黄果短剧（huangguoai.com，AI 成人短剧）。最新/短剧/漫剧/黄果原创 4 个分类；详情走 /api/videos/{id}，分集 POST /playback 取签名 m3u8（AES-128 加密分片）。AI魔改/AI换脸两类已下线（410），未列入。摸站手写。",
+  "type": "shortdrama",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "huangguoai.com"
+    ],
+    "media": [
+      "huangguoai.com",
+      "*.qnlycc.cn",
+      "*.tjyyjk.cn"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/huangguo/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-5IsLss0uEH2XJbjrS/i1gL3t9ARyE7xzqjIC8rH8Oi8="
+    }
+  }
+}

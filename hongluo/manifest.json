@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hongluo",
+  "name": "红裸短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "红裸短剧（hongluo.co）。分类与原 py 1:1：全部/仙侠玄幻/都市情感/奇幻异能/古装宫廷/悬疑犯罪/大学校园/家庭剧情/职场商战/灵异惊悚共 10 类，目录走 /api/catalog JSON 接口，详情解析剧集页分集，播放页现取 video 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "hongluo.co",
+      "v.hongluo.co",
+      "media.hongluo.co"
+    ],
+    "media": [
+      "hongluo.co",
+      "v.hongluo.co",
+      "media.hongluo.co"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hongluo/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-DV83DNKuj76uUlTN5z1nb9T5DZSVA2Ox21XrB8GBR98="
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hsckzy",
+  "name": "黄色仓库资源",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "黄色仓库资源（hsckzy888.com，MacCMS 资源接口站，与订阅里已有的黄色仓库视频站插件是两个不同的站）。分类取接口 class 实时返回并经原 py 旗标过滤照搬（EXCLUDED_IDS=['20']、名称含游戏/棋牌/博彩/彩票/赌的分类剔除），兜底分类 40 个同 py；JSON 主、XML 备双通道列表/详情/搜索，列表无封面时经详情批量补封面（同 py _enrich），播放为详情直给线路（hsckyun 分享直链 / hsckm3u8 的 m3u8），play 内主清单预解析到子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "hsckzy888.com"
+    ],
+    "media": [
+      "hsckzy888.com",
+      "img.uyjthen.com",
+      "*.uyjthen.com",
+      "hsm3.hwzcfz.com",
+      "*.hwzcfz.com",
+      "hsckyun.yeffpe.com",
+      "*.yeffpe.com",
+      "*.yzn6b.xyz",
+      "*.erlgnf.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hsckzy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-8dGFNGbadygRgKe3s4YH89Gg2mNahPG91UBB9VryagE="
+    }
+  }
+}

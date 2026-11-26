@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hqporner",
+  "name": "HQPorner",
+  "version": "1.0.0",
+  "author": {
+    "name": "CatVod 蜘蛛改写"
+  },
+  "description": "HQPorner（hqporner.com）。64 个分类 + 最新 / 热门 / 月榜 / 周榜 / 女优，详情嵌 mydaddy.cc 取最高画质 mp4。由 CatVod 蜘蛛 v1.0.1 改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "hqporner.com",
+      "www.hqporner.com",
+      "*.hqporner.com",
+      "mydaddy.cc",
+      "*.mydaddy.cc"
+    ],
+    "media": [
+      "bigcdn.cc",
+      "*.bigcdn.cc",
+      "fastporndelivery.hqporner.com",
+      "*.hqporner.com",
+      "mydaddy.cc"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hqporner/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-hO5McA2n6KimJWW19laxeK54UciNnk8cuLHsKKmh/pw="
+    }
+  }
+}

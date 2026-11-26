@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hongniuzy",
+  "name": "红牛资源",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "红牛资源（www.hongniuzy2.com）。44 个分类（与原 py 完全一致：接口 class 实时返回 44 类、经原 py 旗标过滤，EXCLUDED_IDS 为空、名称含游戏/棋牌/博彩/彩票/赌的分类剔除，兜底分类同 py 为空），MacCMS 资源接口（JSON 主、XML 备）列表/详情/搜索，列表无封面时经详情补封面（同 py），播放含 hnyun 网页播放页线与 hnm3u8 直链 m3u8 线（play 内预解析主清单）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.hongniuzy2.com"
+    ],
+    "media": [
+      "www.hongniuzy2.com",
+      "hongniuzyimage.com",
+      "hn.bfvvs.com",
+      "hnts.ymuuy.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hongniuzy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-XRIYlQWo7+sOA/duML7EGHkWjrnyXPaBqir1fviE3Bo="
+    }
+  }
+}
