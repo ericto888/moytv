@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.xhamster",
+  "name": "xHamster",
+  "version": "1.0.0",
+  "author": {
+    "name": "CatVod 蜘蛛改写"
+  },
+  "description": "xHamster（xhamster.com）。13 个分类，列表走内嵌 JSON videoThumbProps，详情取 xhcdn m3u8（6 档 144p–2160p）。2026-11-24 摸站。首页 / 是年龄验证墙，插件改用 /newest。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "xhamster.com",
+      "www.xhamster.com"
+    ],
+    "media": [
+      "*.xhcdn.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/xhamster/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-//9Fw6UjHBY5m2sHhCq8ggWBcy7mxfXJWa2Td3SnT34="
+    }
+  }
+}

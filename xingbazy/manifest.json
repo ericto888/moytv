@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.xingbazy",
+  "name": "杏吧资源",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "杏吧资源（xingba111.com）。41 个分类（与原 py 完全一致：接口 class 实时返回、兜底同 py，旗标过滤照搬），MacCMS 资源接口（JSON 主、XML 备）列表/详情/搜索，列表无封面时经详情补封面（同 py），播放为详情直给的 m3u8 主清单、play 内预解析到子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "xingba111.com",
+      "*.xbv2608.com"
+    ],
+    "media": [
+      "xingba111.com",
+      "pp2.xbp261111.top",
+      "*.xbp261111.top",
+      "2608.xbv2608.com",
+      "*.xbv2608.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/xingbazy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-c3XzH7MfA6SeARvd10/2xjzZJWpeR35zrtlkOyOPcro="
+    }
+  }
+}

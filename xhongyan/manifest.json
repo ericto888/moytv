@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.xhongyan",
+  "name": "X红颜",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "X红颜（xhongyan.com）。MacCMS 站，分类从首页导航实时解析（原档/onlyfans/网黄/品牌/美图），详情页 sid 线路，播放页 player_data 取本站签名 mp4 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "xhongyan.com"
+    ],
+    "media": [
+      "xhongyan.com",
+      "*.onlyfans18.vip"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/xhongyan/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-XRkjXGMft5Xij//1aO3+R3zrbkubzIvx/stdd+7LnPc="
+    }
+  }
+}

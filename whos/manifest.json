@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "com.idj.bundled.whos",
+  "name": "Whos.tv",
+  "version": "1.0.4",
+  "author": {
+    "name": "小多"
+  },
+  "description": "Whos.tv：日系 AV 影片库；列表 /videos（每页 12 条），分页 /videos/page-{n}?page={n}，搜索 /videos?q=；详情 /videos/{番号}/，播放页 <video-player> 内 <source> 的 v.hersav.me m3u8（无加密、无到期时间戳）。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "whos.tv",
+      "*.whos.tv"
+    ],
+    "media": [
+      "v.hersav.me",
+      "*.hersav.me",
+      "whos.tv",
+      "*.whos.tv"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-CygGs1VpxXlXxhxdX5Vnfj5WDqMDUa5y3f34ndqNtG4="
+    }
+  }
+}
