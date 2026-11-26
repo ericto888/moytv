@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.ai4k",
+  "name": "4K.AI短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "4K.AI短剧（wyswspqjtr.click）。22 个分类，HTML 解析卡片与详情，播放页现取 playUrl 的 m3u8 直链播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "wyswspqjtr.click"
+    ],
+    "media": [
+      "sghiwygwns.com",
+      "img.uyjthen.com",
+      "pp2.xbp261111.top",
+      "155p261111.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/ai4k/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-drHOZJdrIoY8yNgdkZWzip0tDiZ0+zScm6vJ1K6Yvf4="
+    }
+  }
+}

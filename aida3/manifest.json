@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.aida3",
+  "name": "爱豆",
+  "version": "1.0.3",
+  "author": {
+    "name": "TG频道号@yydsys"
+  },
+  "description": "【本插件由TG频道〖多多纯净软件分享〗提供，频道号@yydsys】\n\n爱豆（aida3）：国产 / 传媒 / 日韩 / 欧美 / 动漫 / 免费专区六个分区，热门推荐、最近更新、视频精选三档排序，关键词搜索。站点的数据通道本身带加密，插件里已经把这一层处理掉；取流给 HLS 线路，免费区带解密密钥、VIP 区是明文切片。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh",
+    "en",
+    "ja",
+    "ko"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "ww7.aida3.xyz",
+      "w1.aido1.cc",
+      "w2.aido1.cc",
+      "*.aida3.xyz"
+    ],
+    "media": [
+      "ww7.aida3.xyz",
+      "*.aida3.xyz",
+      "font1.ghjfg.shop",
+      "*.ghjfg.shop",
+      "ps1.vrvtn.shop",
+      "*.vrvtn.shop",
+      "ws1.lczzyr.top",
+      "*.lczzyr.top"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-Wm1bJfVXIEOfDCv+8x+sKyS5yYiGjcHyiiXfrElpNpQ="
+    }
+  }
+}

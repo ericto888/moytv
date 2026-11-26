@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.aidj",
+  "name": "AI短剧AV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "AI短剧AV（aisee10w29.buzz）。2 个分类，播放页取数后经黄果接口换 m3u8 代理地址直播。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "aisee10w29.buzz"
+    ],
+    "media": [
+      "aisee10w29.buzz",
+      "media.hgpicimg.cc"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aidj/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-D8ezSrnmlW19YceBz9XNsrlqJhHmGPL9PMF4vK3KMko="
+    }
+  }
+}
