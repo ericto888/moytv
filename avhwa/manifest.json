@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.avhwa",
+  "name": "AVHWA",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "AVHWA（avhwa.com）。11 个分类，详情页 base64 解出 get_file 地址再 302 到 CDN 的 mp4 直链播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "avhwa.com"
+    ],
+    "media": [
+      "tubegifs.com",
+      "cdnhop.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/avhwa/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-2reO6b3BIN2pSFOB+uoj2WVPh/46GO6wwp0OvbYbtWQ="
+    }
+  }
+}

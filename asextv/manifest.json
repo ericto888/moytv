@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.asextv",
+  "name": "A色TV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "A色TV（asextv.xyz）。116 个分类与原 py 1:1 对应，详情页 HTML 直取 m3u8 播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "asextv.xyz"
+    ],
+    "media": [
+      "asextv.xyz",
+      "voddadaizi5.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/asextv/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-B/65dwnu6kg2peWLbblfpAcfQfdidBCrzGmAYsIAX8A="
+    }
+  }
+}

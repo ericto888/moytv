@@ -1,0 +1,47 @@
+{
+  "adult": true,
+  "author": {
+    "name": "摸站手写（py 移植）"
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "description": "AI淫航（aiyinhang.top）。AI成人短剧/AI成人漫剧/AI换脸/AI魔改 4 分类与站导航 1:1，封面走 media.hgpicimg.cc，播放走站内 huangguo 接口 + hgmedia 代理真 m3u8。由 TVBox py 蜘蛛 aiyinhang.py 移植（该版 2026-11-07/08 全链实测通过）。1.0.1：域名清单改用 *.aiyinhang.top 覆盖裸域与全部子域、media 补 *.hzjvlo.cn 播放 CDN，修清单漏裸域时跳转被宿主白名单拦死、列表全空的问题。注意：该站对数据中心/VPN 出口拒连（2026-11-25 实测），列表空白多为出口被拒，需关 VPN 或换住宅出口再试。",
+  "entry": "main.js",
+  "id": "com.idj.ext.aiyinhang",
+  "integrity": {
+    "files": {
+      "main.js": "sha256-hLpA/LlLb4Rt3A4R3EisZ8mWHGAvK7sXfsRHmCrEyxg="
+    }
+  },
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "name": "AI淫航",
+  "permissions": {
+    "cloudflare": false,
+    "http": [
+      "*.aiyinhang.top",
+      "media.hgpicimg.cc"
+    ],
+    "login": false,
+    "media": [
+      "*.aiyinhang.top",
+      "media.hgpicimg.cc",
+      "*.hzjvlo.cn"
+    ],
+    "storage": false
+  },
+  "schema": 1,
+  "settings": [],
+  "type": "video",
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aiyinhang/manifest.json"
+  },
+  "version": "1.0.1"
+}

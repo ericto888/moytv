@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.avtoday",
+  "name": "AV Today",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "AV Today（avtoday.io）。16 个分类与原 py 1:1 对应，播放页现取 mp4 直链播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "avtoday.io"
+    ],
+    "media": [
+      "video.xdmm.workers.dev",
+      "preview.xdmm.workers.dev",
+      "avtoday.io"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/avtoday/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-Ndkv5DAXkEoMn7qokx4Md0drnQinMkpWkVYvtYtfKp4="
+    }
+  }
+}

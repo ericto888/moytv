@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.aosikazy",
+  "name": "奥斯卡资源",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "奥斯卡资源（aosikazy1.com）。MacCMS 资源接口站：分类由接口动态下发（原 py 过滤：剔除 type_id=40 及名称含游戏/棋牌/博彩/彩票/赌的分类），列表走 detail 批量补封面，播放为 detail 直出的 m3u8 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "aosikazy1.com"
+    ],
+    "media": [
+      "aosikazy1.com",
+      "aoskkaxxz.com",
+      "sghiwygwns.com",
+      "tsbfask.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aosikazy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-FvJ3Fj7s/OHr7JmCtXJq7aBKNKcFpzcRmwNd3Ec/aEY="
+    }
+  }
+}
