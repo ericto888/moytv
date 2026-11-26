@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.mose365",
+  "name": "魔色365",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "魔色365（exwxfmd4.work）。4 个分类与站内导航一致（MissAV、XVideos、XNXX、Eporner，接口实时返回），播放为详情接口自定义 scheme 经站方 API 代理现取（XVideos 为 HLS 主清单预解析子清单，其余为 MP4 代理直链）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "exwxfmd4.work"
+    ],
+    "media": [
+      "exwxfmd4.work"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/mose365/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-teViGurLbt0M4ayDpmTqax4o1a2+qXJWL92ESlqjlrw="
+    }
+  }
+}

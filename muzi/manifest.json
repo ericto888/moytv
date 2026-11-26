@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.muzi",
+  "name": "母子视频",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "母子视频（web.mzsp1.cc）。7 个分类与站导航 1:1（黄瓜短剧/55资源/不卡资源/兔儿资源/森林资源/母子资源/库库资源，动态抓取+同表兜底），详情页现取播放页 player_aaaa 的 m3u8，play 内预解析 master 清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "web.mzsp1.cc"
+    ],
+    "media": [
+      "web.mzsp1.cc",
+      "hg.jqydt1.com",
+      "98jpm3u8.vip",
+      "98cdn.vip"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/muzi/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-t8Z0OZsVSs5bBX2q9QuooN+UxTWiKUHSgG7iWZ/m7vU="
+    }
+  }
+}

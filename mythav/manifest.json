@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.mythav",
+  "name": "MythAV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "MythAV（sdyoof.asia）。15 个分类（最新上传 + 12 个站内分类 + 国产传媒 + 标签），与原 py 蜘蛛分类 1:1；封面缓存地址解码回原图地址，详情页现取 m3u8 并在播放内预解析主清单到子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "sdyoof.asia",
+      "m3cdn.playergo.top"
+    ],
+    "media": [
+      "m3cdn.playergo.top",
+      "*.sgvafw.com",
+      "fourhoi.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/mythav/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-TI5JMrIVbOpK6yqu/jyNmP0iOHLqEvW07pqcO/iM6qY="
+    }
+  }
+}
