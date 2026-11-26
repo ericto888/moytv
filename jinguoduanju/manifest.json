@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.jinguoduanju",
+  "name": "禁果短剧",
+  "version": "1.3.3",
+  "author": {
+    "name": "@yydsys"
+  },
+  "description": "禁果短剧（jinguoduanju.app）：推荐 / 热度 / 原创分类 / 标签筛选，关键词搜索。片源地址由服务端预先整理，播放不需要设备发送登录凭证，换网络也能播。简介首行带频道信息。更多片源与插件更新见 TG 频道〖多多纯净软件分享〗@yydsys。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "jinguoduanju.app",
+      "www.jinguoduanju.app",
+      "play.jinguoduanju.app",
+      "jgdj.app",
+      "www.jgdj.app",
+      "*.jinguoduanju.app",
+      "postman-echo.com",
+      "jgplay-k7m3.web.zaka.live"
+    ],
+    "media": [
+      "*.jinguoduanju.app",
+      "*.jgdj.app",
+      "*.rt3wjw6.com",
+      "*.ygrwdsgt.cc"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-jnqAOgmcXS70l/+g5/umQsPEu4UHz69NSstPMuMdAp0="
+    }
+  }
+}

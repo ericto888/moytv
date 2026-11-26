@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.jiuseduanju",
+  "name": "九色短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "九色短剧（jiuseai.top）。72 个分类与站点导航 1:1（动态解析、兜底同原 py），列表卡片直达播放页，详情与播放均读播放页 player_aaaa 现取直链，master 清单在 play 内预解析到子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.jiuseai.top"
+    ],
+    "media": [
+      "www.jiuseai.top",
+      "yt.malatang10.xyz",
+      "lsbbf11.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/jiuseduanju/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-DaFNRuT53sPLupTqHmontyumVvaI1XRDBMtGCPqO19Y="
+    }
+  }
+}

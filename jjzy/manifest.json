@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.jjzy",
+  "name": "吉吉资源",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "吉吉资源（caiji.jjzyapi.com）。33 个分类（与原 py 完全一致：接口 class 实时返回 33 类、经原 py 旗标过滤，EXCLUDED_IDS 为空、名称含游戏/棋牌/博彩/彩票/赌的分类剔除，兜底分类同 py 33 类），MacCMS 资源接口（JSON 主、XML 备）列表/详情/搜索，列表无封面时经详情补封面（同 py），播放双线：jjm3u8 直给 m3u8（play 内预解析主清单）、jjzy 线为 watch 播放页、play 内提取页内签名 m3u8。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "caiji.jjzyapi.com",
+      "svip.jijiplay6.com",
+      "*.jijiplay6.com",
+      "svip6.jimxtc.com",
+      "*.jimxtc.com"
+    ],
+    "media": [
+      "pic.jijizyimg.com",
+      "*.jijizyimg.com",
+      "svip.jijiplay6.com",
+      "*.jijiplay6.com",
+      "svip6.jimxtc.com",
+      "*.jimxtc.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/jjzy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-GD+HCQL8OYBM6wc0EQJ8+Z6nxU7y3cc9k3fgchEg8ig="
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.jinguo",
+  "name": "金果短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "金果短剧（play.jinguoduanju.app）。13 个分类（接口现解析，兜底同原 py），短剧全量列表本地分页，详情分集完整，播放走游客设备授权换 Bearer 令牌后取 m3u8 直链。由内置 py 蜘蛛改写。",
+  "type": "shortdrama",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "play.jinguoduanju.app",
+      "api-r8x4n6pk.rt3wjw6.com"
+    ],
+    "media": [
+      "play.jinguoduanju.app",
+      "api-r8x4n6pk.rt3wjw6.com"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/jinguo/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-6Nm7PJmlgYmVyEdb78HgIcLIH+ggejw/792hWab3c60="
+    }
+  }
+}
