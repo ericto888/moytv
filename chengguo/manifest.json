@@ -51,5 +51,8 @@
     "files": {
       "main.js": "sha256-xib3n++VDkreu1TjRlLLbQLWC8PAk5JIqgYqzAvbnrg="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/chengguo/manifest.json"
   }
 }

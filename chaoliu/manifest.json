@@ -109,5 +109,8 @@
     "files": {
       "main.js": "sha256-0arhDBJF6tIqqeexurtUzVYHdFjaJC/DZhYaG5hnTAw="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/chaoliu/manifest.json"
   }
 }
