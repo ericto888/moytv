@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.aipornx",
+  "name": "AiPorn",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "AiPorn（aipornx.cc）。7 个分类与原 py 1:1，HTML 抓取列表/详情，播放走 huangguo.php 接口取 HLS 直链或站内媒体代理。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.aipornx.cc",
+      "aipornx.cc"
+    ],
+    "media": [
+      "media.hgpicimg.cc",
+      "www.aipornx.cc",
+      "aipornx.cc"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aipornx/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-uDYdTc3F7tU3KWlvRLcFeZSczfa5CV/Ho1KuhhY3pmQ="
+    }
+  }
+}

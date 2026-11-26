@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.aihi",
+  "name": "AIHI",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "AIHI（aihi.cc）。4 个分类与原蜘蛛 1:1 对应，播放走站内 huangguo.php 接口现取 m3u8 直链（AES-128 加密 HLS）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "aihi.cc"
+    ],
+    "media": [
+      "aihi.cc",
+      "media.hgpicimg.cc"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aihi/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-gDRTC+ym8dQXP9MM16kBrpjcwGTuhb2ProotnINyrhg="
+    }
+  }
+}

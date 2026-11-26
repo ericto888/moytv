@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.aiwu",
+  "name": "AI污短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "AI污短剧（aiwu.ai-wu.cc）。4 个分类与原蜘蛛 1:1 对应，播放走站内 huangguo.php 接口现取 m3u8 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "aiwu.ai-wu.cc"
+    ],
+    "media": [
+      "aiwu.ai-wu.cc",
+      "media.hgpicimg.cc"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aiwu/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-4/0Q1ggXYzsK3Cg73YQnQrPu0K9OKVHd1vHdCpbQyI4="
+    }
+  }
+}

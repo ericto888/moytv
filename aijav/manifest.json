@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.aijav",
+  "name": "AiJav",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "AiJav（www.a-ijav.com）。单一分类「免费视频」（与原 py 一致），数据走加密 JSON 接口（参数签名 + AES-256-CBC 加密请求、响应信封解密），播放为 getVideoUrl 接口现取 HLS 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "newavapi.9xyrp3kg4b86.com",
+      "www.a-ijav.com",
+      "mmjs.1vkx.cn",
+      "ut.lnh7.com"
+    ],
+    "media": [
+      "mmjs.1vkx.cn",
+      "ut.lnh7.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aijav/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-NTFqbTIHJG4ih0FtiCKlOE+eeLc/khGlYwpPb8ldFGI="
+    }
+  }
+}

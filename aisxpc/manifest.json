@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.aisxpc",
+  "name": "Ai小视频",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "Ai小视频（aicjjc.cc）。4 个分类，HTML 解析列表/详情，黄果接口换 HLS 地址播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "aicjjc.cc"
+    ],
+    "media": [
+      "aicjjc.cc",
+      "media.hgpicimg.cc"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aisxpc/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-TUIMX1cP1Oupuw8HUnMeP8ouP6F8W2pDiHsvg4nWwLA="
+    }
+  }
+}

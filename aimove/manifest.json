@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.aimove",
+  "name": "新黄果短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "新黄果短剧（aimove.click）。14 个分类与站点导航 1:1，播放为接口直出 HLS 主列表（已解锁集免费播，锁定集需金币、插件内受宿主剥离 Authorization 头限制无法解锁）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "aimove.click",
+      "img.mfantasy.net"
+    ],
+    "media": [
+      "aimove.click",
+      "img.mfantasy.net"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aimove/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-m/CixO8jHXEO5r4VQvuBIY1mvYRnq2VQdtpxZ8AaTL4="
+    }
+  }
+}
