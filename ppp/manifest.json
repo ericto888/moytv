@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.bundled.ppp",
+  "name": "亚洲素人",
+  "version": "1.0.6",
+  "author": {
+    "name": "小多"
+  },
+  "description": "亚洲素人（PPP.Porn）：精选亚洲素人成人影片；详情 /v/{6位码}/，播放页内嵌 var stream 直链（*.ppp.porn 或 *.cdnlab.live 的 m3u8，带到期时间戳）。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "ppp.porn",
+      "*.ppp.porn",
+      "cdnlab.live",
+      "*.cdnlab.live"
+    ],
+    "media": [
+      "ppp.porn",
+      "*.ppp.porn",
+      "cdnlab.live",
+      "*.cdnlab.live"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-HBMmeTfK4p3JVdS++WWWgRbt73epc3RjYvHEb8luzjU="
+    }
+  }
+}

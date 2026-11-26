@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.rouav",
+  "name": "rouAV",
+  "version": "1.0.1",
+  "author": {
+    "name": "摸站手写"
+  },
+  "description": "rouAV（肉视频，site2.321av.cc；99dh 的“肉视频”与“rouAV”为同一站）。国产AV/日本/自拍流出/探花/OnlyFans/其他。播放走 rou123.top→rou666.net 真 m3u8。2026-11-25 复核全链实测通过（列表/详情/播放），封面为站方图床原样签名地址。摸站手写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "site2.321av.cc",
+      "rou123.top",
+      "rou666.net"
+    ],
+    "media": [
+      "*.vclarith.top",
+      "*.piccdn1.mom",
+      "rouplay.datalicdn.top",
+      "*.centercdn.top",
+      "rou666.net",
+      "*.vcdenet5.sbs"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/rouav/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-+3r1rexuoOG44uvC+X+aGKsSLcBHuxJTOlmPU7XYsKg="
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.pornhub",
+  "name": "Pornhub",
+  "version": "1.0.2",
+  "author": {
+    "name": "@yydsys"
+  },
+  "description": "Pornhub 官方站点。热榜/评分/评论/最长/本周热门、关键词搜索、HLS+MP4 取流。更多片源与插件更新见 TG 频道〖多多纯净软件分享〗@yydsys。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "en"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.pornhub.com",
+      "pornhub.com"
+    ],
+    "media": [
+      "pornhub.com",
+      "*.pornhub.com",
+      "*.phncdn.com",
+      "*.phprcdn.com"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-1Oji/etrlK4iKRgiZgrV0EMobYGK7Nq3TzFZsYGXn0Q="
+    }
+  }
+}

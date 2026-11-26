@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.porncgw",
+  "name": "Porn吃瓜网",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "Porn吃瓜网（porncgw.com）。25 个分类，HTML 解析列表/详情/搜索，playback 接口现取 HLS 播放地址（CDN 鉴权头透传）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "porncgw.com",
+      "*.qnlycc.cn",
+      "*.tjyyjk.cn",
+      "*.drleao.cn",
+      "*.aluxvl.cn"
+    ],
+    "media": [
+      "porncgw.com",
+      "*.qnlycc.cn",
+      "*.tjyyjk.cn",
+      "*.drleao.cn",
+      "*.aluxvl.cn"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/porncgw/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-YMJOMKa1GqGVXzf5wod7p7rmWSeY5PczpHpf4vqz0MM="
+    }
+  }
+}

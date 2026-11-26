@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.qiyoushe",
+  "name": "妻友社",
+  "version": "1.0.0",
+  "author": {
+    "name": "CatVod 蜘蛛改写"
+  },
+  "description": "妻友社。13 个分类，游客登录 + 请求签名，播放走签名 m3u8。服务端要认 Authorization 头（宿主 2026-11-24 18:40 起放行，插件随请求发游客 token）；封面异或加密，列表无封面。由 CatVod 蜘蛛 v1.0.0 改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "d1kmvkv4iwtiup.cloudfront.net"
+    ],
+    "media": [
+      "d1kmvkv4iwtiup.cloudfront.net",
+      "*.cloudfront.net",
+      "qiyouimage.arpuum.cn",
+      "*.arpuum.cn",
+      "*.gcwe44p.com"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/qiyoushe/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-08kolhDuQsysaVhOk2QtgG+0Cs16kqlKXoyBaAXwJy4="
+    }
+  }
+}

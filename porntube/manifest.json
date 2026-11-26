@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.porntube",
+  "name": "PornTube",
+  "version": "1.0.0",
+  "author": {
+    "name": "CatVod 蜘蛛改写"
+  },
+  "description": "PornTube（porntube.cool）。32 个分类，接口 AES 加密，播放走临时签名 m3u8 直链。由 CatVod 蜘蛛 v1.0.2 改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "v2.cdn199.com",
+      "v2.kekecdn.net",
+      "v2.luchu.org",
+      "v2.madou.ws",
+      "v2.papapa.biz",
+      "v2.xiaoshuo.info",
+      "v2.xiaoshuo.la"
+    ],
+    "media": [
+      "v2.cdn199.com",
+      "v2.kekecdn.net",
+      "v2.luchu.org",
+      "v2.madou.ws",
+      "v2.papapa.biz",
+      "v2.xiaoshuo.info",
+      "v2.xiaoshuo.la",
+      "porntube.cool"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/porntube/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-MqsK7TLPvmqgkYna9wX4kvSmJJRHH5PmdMFt+rYwWQc="
+    }
+  }
+}
