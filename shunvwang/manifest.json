@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.shunvwang",
+  "name": "熟女网",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "熟女网（shunvwang）。7 个资源分类与站导航一致，播放为播放页 player_aaaa 现取 HLS。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "tv.shunvwang7.cc",
+      "ap.shunvwang8.cc",
+      "web.shunvwang9.cc"
+    ],
+    "media": [
+      "tv.shunvwang7.cc",
+      "ap.shunvwang8.cc",
+      "web.shunvwang9.cc",
+      "aoskkaxxz.com",
+      "hg.jqydt1.com",
+      "fqjpg12.top",
+      "web.wuwutp.com",
+      "sbzytpimg12.com",
+      "sbzytpimg7.com",
+      "wap.jqydt1.com",
+      "2609.v155p.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/shunvwang/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-N5Bcv21OqrFj6PkxaVYETDo5+6ZYzsscz6asbfjQV0g="
+    }
+  }
+}

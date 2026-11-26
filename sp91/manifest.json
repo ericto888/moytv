@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.sp91",
+  "name": "91视频",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "91视频（91spx.com）。23 个写死分类与原 py 一致，列表/详情走页面 JSON-LD，播放走 /playback 接口现取 m3u8。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "91spx.com",
+      "*.tjyyjk.cn",
+      "*.qnlycc.cn"
+    ],
+    "media": [
+      "91spx.com",
+      "*.tjyyjk.cn",
+      "*.qnlycc.cn"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/sp91/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-wtLOMslRr7T7IsUKvt3h45iZrbfEX9ssLDhACaXYYd8="
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.swagr",
+  "name": "SWAG资源合集",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "SWAG资源合集（zi.ri511.xyz）。热门/最新/推荐三页签加主播分类与站点导航 1:1（实时抓取、兜底 18 位主播），详情页现取预告片 mp4 直链播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "zi.ri511.xyz",
+      "webp.ripic.xyz",
+      "trailer.ripic.xyz",
+      "img.ripic.xyz"
+    ],
+    "media": [
+      "webp.ripic.xyz",
+      "trailer.ripic.xyz",
+      "img.ripic.xyz"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/swagr/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-OMuiBmsbc8aDNriTc7BP0JpVB0pPpaGCInbnAvez2WM="
+    }
+  }
+}

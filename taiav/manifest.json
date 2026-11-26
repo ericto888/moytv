@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.taiav",
+  "name": "TaiAV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "TaiAV（taiav.com）。6 个分类（无码/有码/国产AV/网红主播/热门视频/随机，与原 py 一致），播放走 /api/getmovie 接口现取 m3u8，master 清单在 play 内预解析到子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "taiav.com",
+      "img.louloufans.net"
+    ],
+    "media": [
+      "taiav.com",
+      "img.louloufans.net",
+      "v16cdn.snmovie.com",
+      "*.snmovie.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/taiav/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-mDsBC3VfyWzUJ1o0o5Lv3/w3RgpN4PF8qFTkimcNqAs="
+    }
+  }
+}

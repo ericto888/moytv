@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.supjav",
+  "name": "SupJav",
+  "version": "1.2.3",
+  "author": {
+    "name": "@yydsys"
+  },
+  "description": "SupJav 免验证版（TG频道@yydsys 出品）。最新、无码、有码、中文字幕、素人、搜索；自动取播放页的 HLS 地址（720P），全程不需要过站点验证。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh",
+    "en",
+    "ja"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "supjav.blog",
+      "www.supjav.blog",
+      "upload18.to",
+      "www.upload18.to",
+      "upload18.cc",
+      "www.upload18.cc",
+      "*.upload18.cc",
+      "helvid.com",
+      "*.helvid.com"
+    ],
+    "media": [
+      "supjav.blog",
+      "*.supjav.blog",
+      "upload18.to",
+      "*.upload18.to",
+      "upload18.cc",
+      "*.upload18.cc",
+      "helvid.com",
+      "*.helvid.com"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-7IqaZ4GeKm0U1Yj4b/L8twdT8W9vdEQhUHt6SDYfJ4I="
+    }
+  }
+}
