@@ -51,5 +51,8 @@
     "files": {
       "main.js": "sha256-prHUOZ4qAOb5YEtFc3UUOTVbujamWjnBfKXDuXgJEg0="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/ai2048/manifest.json"
   }
 }

@@ -50,5 +50,8 @@
     "files": {
       "main.js": "sha256-Wm1bJfVXIEOfDCv+8x+sKyS5yYiGjcHyiiXfrElpNpQ="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aida3/manifest.json"
   }
 }

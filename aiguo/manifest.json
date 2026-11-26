@@ -43,5 +43,8 @@
     "files": {
       "main.js": "sha256-do8abhNHlicJqfYCs1zVwjhapm4HKlKTQnDNdBrZyaY="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/aiguo/manifest.json"
   }
 }
