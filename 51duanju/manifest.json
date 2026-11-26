@@ -45,5 +45,8 @@
     "files": {
       "main.js": "sha256-YHpgovWm4HryhbnYcgFi6dQOdeptYKQISQH0RHHSTsk="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/51duanju/manifest.json"
   }
 }

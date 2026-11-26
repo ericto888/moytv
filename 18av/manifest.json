@@ -64,5 +64,8 @@
     "files": {
       "main.js": "sha256-TeTweAyfaa2iK7Q4uau3RZo9MUtrsja3CQjrmKpDjws="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/18av/manifest.json"
   }
 }
