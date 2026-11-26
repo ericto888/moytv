@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.dsav",
+  "name": "DSAV",
+  "version": "1.0.6",
+  "author": {
+    "name": "@yydsys"
+  },
+  "description": "DSAV（dsav.mov）。国产 / 日本 / 韩国 / 欧美 / 无码 / 动漫 / 91大神 / 自拍流出 / 主播福利 / 探花 / 经典三级共 11 个分类，热门推荐、关键词搜索、1080p 播放。接口加密与请求签名、播放地址签名都已完整实现，无需任何账号。1.0.3 修掉「线路正在整理」这个报错：片源清单的域名没有在清单文件里声明，宿主拦掉了取清单的请求，现在补上了，取不到时还会自动再试一次。 更多片源与插件更新见 TG 频道〖多多纯净软件分享〗@yydsys。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "dsav.mov",
+      "www.dsav.mov",
+      "api.dsav.app",
+      "*.230110.xyz",
+      "*.230220.xyz",
+      "*.230330.xyz",
+      "jgplay-m7q2.web.zaka.live",
+      "oss.dsav.app",
+      "*.dsav.app"
+    ],
+    "media": [
+      "oss.dsav.app",
+      "*.dsav.app",
+      "*.230110.xyz",
+      "*.230220.xyz",
+      "*.230330.xyz",
+      "jgplay-m7q2.web.zaka.live"
+    ],
+    "cloudflare": true
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-jhPKRDKkHHVsPcCpmiDqlqeNRA8xrQ0nrOFNPyo2Sb0="
+    }
+  }
+}

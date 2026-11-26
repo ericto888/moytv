@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.dj91",
+  "name": "91短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "91短剧（app.91dju.cyou）。动态分类 3 个（接口批量分类经原 py 旗标过滤后），播放为 m3u8 直链、非直链走 /parse_video 现取。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "app.91dju.cyou",
+      "98jpg1.vip",
+      "98jpm3u8.vip"
+    ],
+    "media": [
+      "98jpm3u8.vip",
+      "98jpg1.vip"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/dj91/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-B6EVR5kBUK2EsJjWaT7zXK6L/SqZ1gcC2+yEI/elTXg="
+    }
+  }
+}

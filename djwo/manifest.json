@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.djwo",
+  "name": "短剧窝",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "短剧窝（langwonqyl.forum）。分类由首页动态解析（约 67 个，旗标过滤后），播放页 var playUrl 直取 m3u8。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "langwonqyl.forum"
+    ],
+    "media": [
+      "v.heicdn.com",
+      "iuewgnbvk.com",
+      "pic.heiimg.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/djwo/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-6Cr7hEghWabWzGImf/7fOkzjbgBRiY8crtXovrbY/WU="
+    }
+  }
+}

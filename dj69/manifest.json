@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.dj69",
+  "name": "69短剧",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "69短剧（69dj16.vip，兜底 69dj05.vip，入口跳转链动态下发域名）。23 个分类，播放页 player_aaaa 直取 m3u8 播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "69djudaq.vip",
+      "69dj03.top",
+      "69dj16.vip",
+      "69dj05.vip"
+    ],
+    "media": [
+      "poqmqwkqld.com",
+      "szjhqakmq.com",
+      "xyzyts.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/dj69/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-1xMEUg3HMPJSfILwGZALUIBEuq8k9B2jWm1TNJXuvlI="
+    }
+  }
+}
