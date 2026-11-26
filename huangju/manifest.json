@@ -45,5 +45,8 @@
     "files": {
       "main.js": "sha256-t8te5pT4iXQnhjhO4W7iHoEGfARiXMnIksc+3ZLt+Y8="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/huangju/manifest.json"
   }
 }
