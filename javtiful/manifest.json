@@ -54,5 +54,8 @@
     "files": {
       "main.js": "sha256-9KFMv+W5uEWXzDagj/rCgbWMfog6soZKPDP/OQBac4s="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/javtiful/manifest.json"
   }
 }

@@ -103,5 +103,8 @@
     "files": {
       "main.js": "sha256-ff7s0UtpO+RJ97xMKr0x5ElrQq+InTIaawqoapWCKj4="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/javmix/manifest.json"
   }
 }
