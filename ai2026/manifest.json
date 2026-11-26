@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.ai2026",
+  "name": "2026短剧AI",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "2026短剧AI（2026aidj789.lol，经跳转页解析现行域名）。5 个分类与站点导航 1:1，播放为详情页现取 m3u8 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "11171224.2026aidj789.lol",
+      "2026.2026aidjtz.top"
+    ],
+    "media": [
+      "qmjpg13.xyz",
+      "qmm3u8.vip",
+      "11171224.2026aidj789.lol"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/ai2026/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-EY2n7QUy8xvJ0x538i5H8y/8Xo8pCfLQaa6HneY5Nvo="
+    }
+  }
+}

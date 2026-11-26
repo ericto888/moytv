@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.abjav",
+  "name": "ABJAV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "ABJAV（abjav.com）。201 个分类（3 个固定榜单 + 站点分类接口实时返回，与站导航一致），播放为 videofile 接口现取、B164 解码后拼 HLS 并跟随 CDN 重定向。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "abjav.com"
+    ],
+    "media": [
+      "ii.abjav.com",
+      "ahcdn.abjav.com",
+      "ip407877971.ahcdn.com",
+      "ip406309591.ahcdn.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/abjav/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-eLPvTmN7IgldF8TftgygZgqEwTVdV9kV1jp6Uvsc+vM="
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.bundled.6chua",
+  "name": "6chua",
+  "version": "1.0.1",
+  "author": {
+    "name": "小多"
+  },
+  "description": "6chua：亚洲成人视频站；列表首页 / 与分类 /{slug}/（每页 94 条，站内无分页），搜索 /?search={词}；详情 /?video={token}&cat={分类}/，播放取 <source> 的 master.m3u8（pic.6chua.com 单 720 档，fMP4 分片在 assets.cdn10.com，带 verify= 签名，现取现用，无 Referer 门禁、无加密）。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "6chua.com",
+      "www.6chua.com",
+      "pic.6chua.com",
+      "*.6chua.com",
+      "assets.cdn10.com",
+      "*.cdn10.com"
+    ],
+    "media": [
+      "pic.6chua.com",
+      "*.6chua.com",
+      "assets.cdn10.com",
+      "*.cdn10.com"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-KQ7jiOb92RafGbzBfFQu4EeKsX/Q273q3G3JRLli47o="
+    }
+  }
+}

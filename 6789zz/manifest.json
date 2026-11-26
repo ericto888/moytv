@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.6789zz",
+  "name": "6789影视",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "6789影视（www.6789zz.com）。分类与原 py 1:1：电视剧/电影/综艺/动漫/短剧/国产剧 6 类。网页解析（stui 模板），列表/详情/搜索齐全，播放页提取 player_aaaa 等真地址。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": false,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.6789zz.com"
+    ],
+    "media": [
+      "www.6789zz.com",
+      "pic3.yzzyimg.online",
+      "pic.youkupic.com",
+      "tupian.ffeiimg.com",
+      "player.yzzyvip-35.com",
+      "vod.ffzy-bofang.com",
+      "v4.ppqrrs.com",
+      "vv.jisuzyv.com",
+      "play.phimgood.com",
+      "v.lzv40.com",
+      "svip.ryiplay18.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/6789zz/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-ciy3UzlW1dZJAr1L0J2ZazvT0/E+/kpnAhC2/WySf+o="
+    }
+  }
+}

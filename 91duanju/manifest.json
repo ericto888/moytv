@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "com.idj.bundled.91duanju",
+  "name": "91短剧",
+  "version": "1.0.10",
+  "author": {
+    "name": "小多"
+  },
+  "description": "91短剧：详情 /{分类}/{数字ID}-{拼音slug}/，集数 详情URL+{集数}/。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "91crdjai.com",
+      "*.91crdjai.com",
+      "pic.qnlycc.cn"
+    ],
+    "media": [
+      "pic.qnlycc.cn",
+      "*.91crdjai.com",
+      "*.tjyyjk.cn"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-lDy4yywJuazF/L+MfKiE+UXSncCdrZtYyd2tW8dhQsg="
+    }
+  }
+}
