@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.insav",
+  "name": "INSAV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "INSAV（insav.tv）。1 个分类「免费放送」与原 py 1:1，接口为 MD5 签名 + AES-256-CBC 加密（与原 py 相同），播放为 /video/getVideoUrl 现取 m3u8 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "insav.tv",
+      "yik.yanyunhome.com",
+      "ut.lnh7.com"
+    ],
+    "media": [
+      "ut.lnh7.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/insav/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-JqqRGA9UHsNjj1TAlE8DQEMWmrINjLIr8ymrf50HoMk="
+    }
+  }
+}

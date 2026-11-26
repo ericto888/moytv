@@ -1,0 +1,48 @@
+{
+  "adult": true,
+  "author": {
+    "name": "皇帝影院规则移植"
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "description": "幻影AI（mfantasy.net，AI 短剧）。13 个分类与站导航 1:1，接口取数，封面走 img.mfantasy.net，播放为 AES-128 HLS（每部已解锁集可播，第 1 集免费）。由海阔规则 🔞幻影AI v2 移植，2026-11-25 全链实测通过。",
+  "entry": "main.js",
+  "id": "com.idj.ext.huanyingai",
+  "integrity": {
+    "files": {
+      "main.js": "sha256-HGlrGYuVUuA13RrfpAwTN+qWH0pM93MAYv2dj0apf0g="
+    }
+  },
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "name": "幻影AI",
+  "permissions": {
+    "cloudflare": false,
+    "http": [
+      "mfantasy.net",
+      "img.mfantasy.net",
+      "vod.mfantasy.net"
+    ],
+    "login": false,
+    "media": [
+      "mfantasy.net",
+      "img.mfantasy.net",
+      "vod.mfantasy.net"
+    ],
+    "storage": false
+  },
+  "schema": 1,
+  "settings": [],
+  "type": "video",
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/huanyingai/manifest.json"
+  },
+  "version": "1.0.0"
+}

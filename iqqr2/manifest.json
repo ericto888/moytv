@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.iqqr2",
+  "name": "iQQTV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "iQQTV（iqqr2.org，用户自有站）。3 个分类与原 py 完全一致（日本/國產/免費），详情与搜索按原 py 移植；播放为播放页现取的免费访客流（免费账号只有预告，未绕 VIP）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "iqqr2.org",
+      "iqqbl.com",
+      "iqqtv.net"
+    ],
+    "media": [
+      "iqqr2.org",
+      "iqqbl.com",
+      "iqqtv.net",
+      "*.vdosl.club"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/iqqr2/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-yD1U29fTnQd9WpBiNCDhXgfO1jB9BJuTKnfo4mGndYs="
+    }
+  }
+}

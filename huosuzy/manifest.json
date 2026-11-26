@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.huosuzy",
+  "name": "火速资源",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "火速资源（api.huosuapi.cc）。6 个分类（与原 py 完全一致：接口 class 实时返回 47 国产伦理/48 香港伦理/49 台湾伦理/50 韩国伦理/51 日本伦理/52 西方伦理，经原 py 旗标过滤，EXCLUDED_IDS 为空、名称含游戏/棋牌/博彩/彩票/赌的分类剔除，接口无分类时用同 py 兜底 6 类），MacCMS 资源接口（JSON 主、XML 备）列表/详情/搜索，列表无封面时经详情补封面（同 py），播放为详情直给的 m3u8 主清单、play 内预解析到子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "api.huosuapi.cc"
+    ],
+    "media": [
+      "api.huosuapi.cc",
+      "pic.hsimg.cc",
+      "*.hsimg.cc",
+      "v.huosucdn.com",
+      "*.huosucdn.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/huosuzy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-nsWwdRVvJoydGt4ateHyWHDh0aEzE7cX5Ut87I8LKA8="
+    }
+  }
+}
