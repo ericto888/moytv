@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.guzhuang",
+  "name": "古装AI",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "古装AI（5g.guzhuangai8.cc/rukou）。9 个分类与原 py 完全一致（斯卡资源/51资源/黄瓜资源/番茄资源/兔兔资源/森林资源/库库资源/制服诱惑/AI短剧，首页导航实测解析、同为 9 个），MacCMS 式 HTML 列表/详情/搜索，详情单线路『在线播放』、分集照原 py 按 nid 排序，play 取播放页 player_aaaa 内嵌 m3u8 并在 play 内预解析主清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "5g.guzhuangai8.cc",
+      "hg.jqydt1.com",
+      "web.wuwutp.com",
+      "sbzytpimg12.com",
+      "aoskkaxxz.com",
+      "aoksazysz.com",
+      "aoskazyz.com",
+      "98jpm3u8.vip",
+      "98cdn.vip",
+      "iuewgnbvk.com"
+    ],
+    "media": [
+      "hg.jqydt1.com",
+      "web.wuwutp.com",
+      "sbzytpimg12.com",
+      "aoskkaxxz.com",
+      "aoksazysz.com",
+      "aoskazyz.com",
+      "98jpm3u8.vip",
+      "98cdn.vip",
+      "iuewgnbvk.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/guzhuang/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-so90Q/dBq+Jl3kUCYrA0vgMKPq1Hzwzw2jj1fC4rWs8="
+    }
+  }
+}

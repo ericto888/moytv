@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hanime1",
+  "name": "Hanime1",
+  "version": "1.0.4",
+  "author": {
+    "name": "TG频道号@yydsys"
+  },
+  "description": "Hanime1.me 番剧向。最新上架、最多观看、本周/本月热门、最多收藏、搜索，MP4/HLS 取流。v1.0.2：修复封面不显示、播放线路打不开；简介首行固定带频道引流。站点有 Cloudflare，首次需在 App 里过验证。更多片源与插件更新见 TG 频道〖多多纯净软件分享〗@yydsys。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh",
+    "ja"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "hanime1.me",
+      "www.hanime1.me",
+      "vdownload.hembed.com",
+      "*.hembed.com"
+    ],
+    "media": [
+      "hanime1.me",
+      "*.hanime1.me",
+      "vdownload.hembed.com",
+      "*.hembed.com",
+      "*.hanime.tv"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-zwNECgDD295wkhSWpEca0LuaV8INMb+R6k7MJ7fpAnk="
+    }
+  }
+}

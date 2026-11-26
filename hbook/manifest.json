@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.hbook",
+  "name": "HBook",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "HBook（hbook.tv，小黄书，HTML 站）。11 个分类与原 py 完全一致（最新视频/免费试看/中文字幕/女优/痴女/恋足/高清/独家/后宫/4K/人妻）。详情页内嵌 source 即播放地址：免费区为完整 HLS、其余默认 60 秒预览清单；原 py 的 Bunny 全片线路靠 Cookie 切换 CDN 偏好，宿主禁发 Cookie 会被剥离，该线路在宿主内通常与预览同源被去重。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "hbook.tv",
+      "*.skylines.pro",
+      "fourhoi.com"
+    ],
+    "media": [
+      "*.skylines.pro",
+      "fourhoi.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/hbook/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-3ODPoF57gQZXC9sdcbqi8m49zH/IYRt+a7QspAov5fg="
+    }
+  }
+}

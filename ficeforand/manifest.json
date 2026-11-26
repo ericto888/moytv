@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.ficeforand",
+  "name": "AI小视频·ficeforand",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "AI小视频·ficeforand（ficeforand.aicjjc.cc）。4 个分类与站点导航 1:1，HTML 解析列表/详情，播放页经黄果接口换 HLS 代理地址播放。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "ficeforand.aicjjc.cc"
+    ],
+    "media": [
+      "ficeforand.aicjjc.cc",
+      "media.hgpicimg.cc"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/ficeforand/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-/f0V4Kw8f4Dyl77fCn1n+jjXO0+Fn0khEteefTv7AyQ="
+    }
+  }
+}
