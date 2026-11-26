@@ -43,5 +43,8 @@
     "files": {
       "main.js": "sha256-XlxuiFOko84DNbgiXyG2u75X1IQ699dHC+lo408HMdc="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/dsd/manifest.json"
   }
 }
