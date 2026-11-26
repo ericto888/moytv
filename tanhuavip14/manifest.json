@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.tanhuavip14",
+  "name": "探花AV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "探花AV（tanhuavip14.xyz/853）。4 个分类与原 py 蜘蛛 1:1（国产传媒、日本有码、中文字幕、无码视频），播放为详情页现取 m3u8 并预解析最高码率子列表。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "tanhuavip14.xyz",
+      "tanhuaav.com",
+      "2605.v155p.com"
+    ],
+    "media": [
+      "tanhuavip14.xyz",
+      "tanhuaav.com",
+      "2605.v155p.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/tanhuavip14/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-64EB31KrqoIjm+WszxcAC/yEDfNIYtOQl9u8t38GIwY="
+    }
+  }
+}

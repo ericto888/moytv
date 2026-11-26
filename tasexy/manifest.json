@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.tasexy",
+  "name": "Tasexy",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "Tasexy（www.tasexy.com）。分类与原 py 1:1：国产情色、日本无码、AV明星、中文字幕、网红主播、成人动漫、欧美情色、国模私拍、长腿丝袜、邻家人妻、韩国伦理、香港伦理、精品推荐、AV明星1。HTML 正则解析列表/详情/搜索，embed 播放页现取 m3u8 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.tasexy.com",
+      "*.toolmm.com",
+      "*.dadi2026.com",
+      "*.sysl2026.com"
+    ],
+    "media": [
+      "www.tasexy.com",
+      "*.toolmm.com",
+      "*.dadi2026.com",
+      "*.sysl2026.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/tasexy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-RqB0iLNNH0F8B026AykEx/USHxMATCN0Sc6Bz1+uua8="
+    }
+  }
+}

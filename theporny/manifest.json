@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.theporny",
+  "name": "thePorny",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "thePorny（theporny.com）。30 个分类与原 py 1:1 对应，播放走 /js 接口现取 m3u8 直链（HLS）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "theporny.com",
+      "v2.cdn199.com",
+      "v2.kekecdn.net",
+      "v2.luchu.org",
+      "v2.madou.ws",
+      "v2.papapa.biz",
+      "v2.tianmtv.com",
+      "v2.xiaoshuo.info",
+      "v2.xiaoshuo.la",
+      "tm.xiaoxx.com",
+      "tp.xiaoxx.com",
+      "rs.xiaoxx.com"
+    ],
+    "media": [
+      "tm.xiaoxx.com",
+      "tp.xiaoxx.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/theporny/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-VyvKrJiazl7dVuL5sd8G3INQpHX2sUMN5nKcFDyYmXM="
+    }
+  }
+}

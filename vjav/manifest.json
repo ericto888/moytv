@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.vjav",
+  "name": "VJAV",
+  "version": "1.0.0",
+  "author": {
+    "name": "CatVod 蜘蛛改写"
+  },
+  "description": "VJAV（vjav.com）。162 个分类，全走 JSON 接口，播放走 videofile.php 解码取 MP4 直链。由 CatVod 蜘蛛 vjav.py v2 改写。2026-11-24 复核。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "vjav.com",
+      "www.vjav.com"
+    ],
+    "media": [
+      "vjav.com",
+      "*.vjav.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/vjav/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-ySllBruHGH581y72RoCe87Szt6djTkUtkPBITrktWZI="
+    }
+  }
+}

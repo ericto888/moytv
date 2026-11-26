@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.tanhua91",
+  "name": "九色",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "九色（91探花，www.91tanhua196.sbs 等三镜像）。三段分类：/video 短视频（动态页签+写死 41 项兜底）、/videos 长视频（排序+分类页签）、/vod 精品与站外搜索段；详情页 data-src 现取 HLS/MP4 直链，按原 py 的时长校验（__vnotice 试看段/清单时长不足声称一半则改走 embed 页、再退 js10 预览清单）过滤假流。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.91tanhua196.sbs",
+      "www.91tanhua301.sbs",
+      "www.91tanhua326.sbs"
+    ],
+    "media": [
+      "*.jiuse2.cloud",
+      "*.jiuse3.cloud",
+      "*.ucloud165.xyz",
+      "*.qiniuyun57.xyz",
+      "cdn.cdnkdjs.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/tanhua91/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-p/GTWWIHx5HH8FhVVizcL//fbh3WFXalJjtx2UMJ0zk="
+    }
+  }
+}
