@@ -42,5 +42,8 @@
     "files": {
       "main.js": "sha256-HBMmeTfK4p3JVdS++WWWgRbt73epc3RjYvHEb8luzjU="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/ppp/manifest.json"
   }
 }

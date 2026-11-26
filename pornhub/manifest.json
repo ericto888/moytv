@@ -41,5 +41,8 @@
     "files": {
       "main.js": "sha256-1Oji/etrlK4iKRgiZgrV0EMobYGK7Nq3TzFZsYGXn0Q="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/pornhub/manifest.json"
   }
 }
