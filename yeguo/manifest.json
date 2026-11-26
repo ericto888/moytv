@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.yeguo",
+  "name": "野果",
+  "version": "1.2.3",
+  "author": {
+    "name": "@yydsys"
+  },
+  "description": "野果短剧(yeguodj 系列):主题/设定/背景/时间/推荐筛选,关键词搜索;接口响应自带加密,插件内解开直取 m3u8。列表与详情封面使用站点明文图源(逐条补全+7天缓存);分集编号改为纯数字传输,兼容宿主截断/改写,播放多路自校准(映射表→剧号/集号→分集重拉→剧名找回),失败直说原因。更多片源与插件更新见 TG 频道〖多多纯净软件分享〗@yydsys。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "attract.vgbyziuz.cc",
+      "as.vgbyziuz.cc",
+      "anyway.vgbyziuz.cc",
+      "analyze.buxefaex.cc",
+      "*.vgbyziuz.cc",
+      "*.buxefaex.cc",
+      "*.fzchosdi.cc",
+      "*.lwblvxvy.cc",
+      "yeguodj.com",
+      "www.yeguodj.com",
+      "ygdj15.com",
+      "www.ygdj15.com",
+      "ygdj7.com",
+      "www.ygdj7.com",
+      "*.ldlmkzcq.cc"
+    ],
+    "media": [
+      "*.micgqv.cn",
+      "*.mkimfs.cn",
+      "*.biacea.cn",
+      "*.vgbyziuz.cc",
+      "*.buxefaex.cc",
+      "*.ldlmkzcq.cc"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-PkxToyGzF+DUPi3mYWpT/KcO9YS9brlPt98nCWB1BO0="
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.xnxx",
+  "name": "XNXX",
+  "version": "1.0.2",
+  "author": {
+    "name": "@yydsys"
+  },
+  "description": "XNXX 官方站点。月度榜、标签分类、关键词搜索、HLS+MP4 取流。更多片源与插件更新见 TG 频道〖多多纯净软件分享〗@yydsys。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "en"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.xnxx.com",
+      "xnxx.com"
+    ],
+    "media": [
+      "xnxx.com",
+      "*.xnxx.com",
+      "*.xnxx-cdn.com",
+      "*.xhcdn.com"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-24k4ovDy9i11LHMjD3iCW8/pdMSNCDpreNoL3GeYl7o="
+    }
+  }
+}

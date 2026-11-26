@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.yesporn",
+  "name": "YesPorn",
+  "version": "1.0.0",
+  "author": {
+    "name": "摸站手写"
+  },
+  "description": "YesPorn（xyesporn.com，KVS 站）。57 个分类 + 最新，详情页 flashvars 取最高画质 mp4 直链（本机出口取流 404，需站方会话 Cookie，待手机终验）。摸站手写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "xyesporn.com"
+    ],
+    "media": [
+      "xyesporn.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/yesporn/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-3xBhjXKGXVoQP2yqhEuCLHVKakSJLeG7Cz5ney6/bcY="
+    }
+  }
+}

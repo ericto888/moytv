@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.yazhousuren",
+  "name": "亚洲素人精选",
+  "version": "1.0.0",
+  "author": {
+    "name": "CatVod 蜘蛛改写"
+  },
+  "description": "亚洲素人精选 591av（591av.ws）。33 个分类，视频页内联 stream 地址直出 m3u8；CDN 边缘偶发 410，播不通需重试。含“学生”分类一名，待协调员复核。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "591av.ws",
+      "591av.net",
+      "591av.sbs",
+      "91-av.men",
+      "91-av.one"
+    ],
+    "media": [
+      "*.vcwinford.cc",
+      "*.vcjuligi.com",
+      "*.vcsheaye.cc",
+      "*.vcmathe.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/yazhousuren/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-SjX9S9X02PvWqYGc4cBaPUjAm5ZkBxDRtE159iSuyXA="
+    }
+  }
+}
