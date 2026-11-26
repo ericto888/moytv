@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.javfun",
+  "name": "JJavFun",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "JJavFun（en.javfun.me）。10 个分类与站导航一致（全部 + 8 个厂牌 + Jav Uncensored），播放走 get_sources 接口现取 MD5 签名地址、master 清单预解析到子清单。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "en.javfun.me"
+    ],
+    "media": [
+      "en.javfun.me",
+      "*.cdnamz.me",
+      "*.ibyteimg.com",
+      "images1-focus-opensocial.googleusercontent.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/javfun/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-qIomMTBXVG79H9HKjaNDFt43GIyJjfgHkEKmCTgudxg="
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.javhdtube",
+  "name": "JAVHDTube",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "JAVHDTube（javhdtube.com）。99 个分类（与原 py 固定分类表一致），HTML 解析列表/详情，详情页现取站内 get_file mp4 直链（经 302 到 privatehost CDN）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "javhdtube.com",
+      "img.javhdtube.com",
+      "cdn.privatehost.com",
+      "*.cdn.privatehost.com"
+    ],
+    "media": [
+      "javhdtube.com",
+      "img.javhdtube.com",
+      "cdn.privatehost.com",
+      "*.cdn.privatehost.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/javhdtube/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-zk1Ex2wGEXw8qUyQTqKxWSp6LE2qEJH0Cj1Yvaov8JI="
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.jable",
+  "name": "Jable",
+  "version": "1.0.7",
+  "author": {
+    "name": "Zaka"
+  },
+  "description": "Jable 日系全站。最近更新、热门、新片，以及巨乳/熟女/丝袜/Cosplay/校服/女仆/泳装等标签分类；关键词搜索；取流从详情页解析 HLS（AES-128）地址。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh",
+    "ja",
+    "en"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "jable.tv",
+      "www.jable.tv",
+      "assets-cdn.jable.tv",
+      "assets.jable.tv"
+    ],
+    "media": [
+      "jable.tv",
+      "*.jable.tv",
+      "mushroomtrack.com",
+      "*.mushroomtrack.com",
+      "*.akamaized.net",
+      "*.cloudfront.net",
+      "*.fastly.net",
+      "*.b-cdn.net",
+      "*.bunnycdn.com",
+      "*.cdn77.org",
+      "*.cloudflarestorage.com"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-oN1+M3UaczJv5YBCgZO3nrt7+wDtvWrp8KgVkmrI964="
+    }
+  }
+}

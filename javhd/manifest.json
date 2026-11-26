@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "id": "com.idj.bundled.javhd",
+  "name": "JAVHD",
+  "version": "1.0.5",
+  "author": {
+    "name": "小多"
+  },
+  "description": "JAVHD：无码日系 AV；列表 XHR /en/japanese-porn-videos/{justadded|popular|top}/all/{页}、分类 /en/japanese-porn-videos/category/{slug}/justadded/all/{页}、搜索 /en/search?q={词}&page={页}（36 条/页，搜索 60 条/页）；详情 /en/id/{id}/{slug} 取 player content-id；播放 /en/player_api?videoId={studioId}&is_trailer=0 取 1080p/720p/480p/240p 四档 MP4（c3.cdnjhd.com 签名直链，20 分钟有效）。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "javhd.com"
+    ],
+    "media": [
+      "*.cdnjhd.com",
+      "*.cdnjav.com",
+      "static.javhd.com"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-Syj+jj5rdxYA/S7bAu8BidS2iwAoWu0WefR07sPxXws="
+    }
+  }
+}
