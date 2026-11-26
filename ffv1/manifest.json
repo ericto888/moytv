@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.ffv1",
+  "name": "星空影院",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "星空影院（www.ffv1.com）。分类与原 py 1:1：电视剧、电影、综艺、动漫。HTML 正则解析列表/详情/搜索，播放页现取 m3u8/mp4 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": false,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.ffv1.com",
+      "ffv1.com",
+      "player.yzzyvip-35.com",
+      "bfikuncdn.com",
+      "kkzycdn.com"
+    ],
+    "media": [
+      "www.ffv1.com",
+      "*.yzzyimg.online",
+      "*.feifeixiang.com",
+      "player.yzzyvip-35.com",
+      "bfikuncdn.com",
+      "kkzycdn.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/ffv1/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-jsPogP6Fiy63POJCtAQ+QtdLN0nyy/0TuD6vqTDmEHI="
+    }
+  }
+}

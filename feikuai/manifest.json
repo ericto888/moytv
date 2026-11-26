@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.feikuai",
+  "name": "飞快TV",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "飞快TV（feikuai.in）。分类与原 py 1:1：写死电影/剧集/综艺/动漫 4 个分类，HTML 正则解析列表/详情/搜索，播放页按原 py 多路顺序现取 m3u8/mp4 直链。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": false,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "feikuai.in",
+      "vod.ffzy-bofang.com",
+      "super.ffzy-online6.com",
+      "fengbao13.com"
+    ],
+    "media": [
+      "pic3.yzzyimg.online",
+      "p.bfvp26.com",
+      "mtzy2.com",
+      "p.bfp261112.com",
+      "speed.bookmarks.best",
+      "pic.ry-pic.com",
+      "img.picbf.com",
+      "www.mdzypic.com",
+      "img.dytt-tupian.com",
+      "img1.wsyzy.org",
+      "fffgood.com",
+      "pub2.bfzy.tv",
+      "img.feifeiimg.vip",
+      "www.maoyanimg.top",
+      "pic.feifeixiang.com",
+      "ok.zuidapic.com",
+      "tupian.ffeiimg.com",
+      "pps.vodfeiss.com",
+      "ps.ryzypics.com",
+      "vod.dyttimage.com",
+      "img3.doubanio.com",
+      "img1.doubanio.com",
+      "img.wmdb.tv",
+      "img.ffzy888.com",
+      "img.202766.xyz",
+      "feikuai.in",
+      "vod.ffzy-bofang.com",
+      "super.ffzy-online6.com",
+      "fengbao13.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/feikuai/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-og8aui3buxqee+sKp2gLE4cp/i3bFPtbm65tGw0sO1c="
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.eporner",
+  "name": "Eporner",
+  "version": "1.0.2",
+  "author": {
+    "name": "@yydsys"
+  },
+  "description": "Eporner 官方 API。最新、本周/本月热门、评分最高、最多观看、搜索；列表与详情完整（取流受站点会话校验限制）。更多片源与插件更新见 TG 频道〖多多纯净软件分享〗@yydsys。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "en"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "www.eporner.com",
+      "eporner.com",
+      "static-sg-cdn.eporner.com"
+    ],
+    "media": [
+      "eporner.com",
+      "*.eporner.com"
+    ],
+    "cloudflare": false,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-gvXwptdAH5FcQ65kWQth7XJu2eCkMtpySHoMl34E+ys="
+    }
+  }
+}
