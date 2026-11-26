@@ -66,5 +66,8 @@
     "files": {
       "main.js": "sha256-x1ypXV2JY+xnCWd5PmOhPnRcCcyp4SHu28clfpomxes="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/kanav/manifest.json"
   }
 }

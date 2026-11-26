@@ -54,5 +54,8 @@
     "files": {
       "main.js": "sha256-YC6g0x9P++bosgIet0BsSKldUFhrwK3drXxoBvhInDo="
     }
+  },
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/kissjav/manifest.json"
   }
 }
