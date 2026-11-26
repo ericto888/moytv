@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.chengguo",
+  "name": "橙果短剧",
+  "version": "1.0.4",
+  "author": {
+    "name": "@yydsys"
+  },
+  "description": "橙果短剧(chengguodj)：橙果原创/AI短剧/真人短剧/AI魔改/AI漫剧 5 条线路 + 15 个题材标签，关键词搜索与翻页；站点接口响应是 AES 加密的，插件内解密后直取 m3u8 播放列表。封面走站点自己的图片代理（原图是加密封面，直连显示不出来）。简介首行带频道信息。更多片源与插件更新见 TG 频道〖多多纯净软件分享〗@yydsys。；v1.0.2：play() 集号解析兼容 id/episodeId 两种顺序（修每集都播第 1 集），集号去前导 0（接口不认 013），分片/key 白名单补 doudou520、zhixunkeji。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "api2.chengguodj.com",
+      "chengguodj.com",
+      "www.chengguodj.com",
+      "hls.ohjzmm.cn",
+      "*.ohjzmm.cn",
+      "mts.hhjd.mobi",
+      "*.hhjd.mobi"
+    ],
+    "media": [
+      "chengguodj.com",
+      "www.chengguodj.com",
+      "hls.ohjzmm.cn",
+      "*.ohjzmm.cn",
+      "mts.hhjd.mobi",
+      "*.hhjd.mobi",
+      "tx.doudou520.online",
+      "*.doudou520.online",
+      "ts.zhixunkeji.xyz",
+      "*.zhixunkeji.xyz"
+    ],
+    "cloudflare": true,
+    "storage": true,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "integrity": {
+    "files": {
+      "main.js": "sha256-xib3n++VDkreu1TjRlLLbQLWC8PAk5JIqgYqzAvbnrg="
+    }
+  }
+}

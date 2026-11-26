@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "com.idj.ext.changzhangzy",
+  "name": "厂长资源",
+  "version": "1.0.0",
+  "author": {
+    "name": "py 蜘蛛改写"
+  },
+  "description": "厂长资源（api.changzhang.tv）。43 个分类（与原 py 完全一致：接口 class 实时返回、经原 py 旗标过滤，兜底分类为空同 py），MacCMS 资源接口（JSON 主、XML 备）列表/详情/搜索，列表无封面时经详情补封面（同 py），播放为详情直给的 m3u8 直链（changzhang 线的分享页地址在 play 内按其页面自带脚本声明解析为同址 /play/.../index.m3u8）。由内置 py 蜘蛛改写。",
+  "type": "video",
+  "adult": true,
+  "language": [
+    "zh"
+  ],
+  "minAppVersion": "1.5",
+  "entry": "main.js",
+  "permissions": {
+    "http": [
+      "api.changzhang.tv"
+    ],
+    "media": [
+      "api.changzhang.tv",
+      "*.czzyplay.com",
+      "*.dyttplay1.com",
+      "*.jimxtc.com"
+    ],
+    "cloudflare": false,
+    "storage": false,
+    "login": false
+  },
+  "capabilities": [
+    "home",
+    "category",
+    "search",
+    "detail",
+    "play"
+  ],
+  "settings": [],
+  "update": {
+    "url": "https://raw.githubusercontent.com/ericto888/moytv/iduanju-compatible/changzhangzy/manifest.json"
+  },
+  "integrity": {
+    "files": {
+      "main.js": "sha256-p2H7Q9wn1gkRM1t1yOOvXyVTke7aynLf4DqjYUXOk48="
+    }
+  }
+}
